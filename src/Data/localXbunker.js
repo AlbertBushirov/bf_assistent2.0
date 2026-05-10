@@ -1,0 +1,148 @@
+export const localXBunker = [
+  {
+    id: "SPGally",
+    title: "Галлы",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/Gally.jpg"),
+    image: require("../images/Storonie/SPGally.jpg"), // Прямой URL для удаленного изображения
+    price: 170,
+    inBasket: true,
+    directory: "",
+    button: "",
+    copyright: true,
+  },
+  {
+    id: "SPKiberici",
+    title: "Киберийцы",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/Kiberici.jpg"),
+    image: require("../images/Storonie/SPKiberici.jpg"), // Прямой URL для удаленного изображения
+    price: 180,
+    inBasket: true,
+    directory: "",
+    button: "",
+  },
+  {
+    id: "SPKsenohanteri",
+    title: "Ксенохантеры",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/Ksenohanteri.jpg"),
+    image: require("../images/Storonie/SPKsenohanteri.jpg"), // Прямой URL для удаленного изображения
+    price: 195,
+    inBasket: true,
+    directory: "",
+    button: "",
+    /*marker: require('../images/Exclamation_marker.png'),
+		markerTitle: 'Снижена цена на 5.',*/
+  },
+  {
+    id: "SPStalnayaPyaterka",
+    title: "Стальная Пятерка",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/StalnayaPyaterka.jpg"),
+    image: require("../images/Storonie/SPStalnayaPyaterka.jpg"), // Прямой URL для удаленного изображения
+    price: 255,
+    inBasket: true,
+    directory: "",
+    button: "",
+    /*marker: require('../images/Exclamation_marker.png'),
+		markerTitle: 'Повышена цена на 5.',*/
+  },
+  {
+    id: "SPValhalla",
+    title: "Вальхалла",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/Valhalla.jpg"),
+    image: require("../images/Storonie/SPValhalla.jpg"), // Прямой URL для удаленного изображения
+    price: 150,
+    inBasket: true,
+    directory: "",
+    button: "",
+    marker: require("../images/Exclamation_marker.png"),
+    markerTitle:
+      "Ослаблен Артефакт. Установить воина можно только вне рукопашных схваток",
+  },
+  {
+    id: "SPShampanoidi",
+    title: "Шампаноиды",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/Shampanoidi.jpg"),
+    image: require("../images/Storonie/SPShampanoidi.jpg"), // Прямой URL для удаленного изображения
+    price: 205,
+    inBasket: true,
+    directory: "",
+    button: "",
+  },
+  {
+    id: "SPGromKopit",
+    title: "Громкопыт",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/GromKopit.jpg"),
+    image: require("../images/Storonie/SPGromKopit.jpg"), // Прямой URL для удаленного изображения
+    price: 160,
+    inBasket: true,
+    directory: "",
+    button: "",
+    marker: require("../images/marker_new.png"),
+    markerTitle: "Новая адаптированная Боевая единица",
+  },
+  {
+    id: "SPTangar",
+    title: "Тангар",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/Tangar.jpg"),
+    image: require("../images/Storonie/SPTangar.jpg"), // Прямой URL для удаленного изображения
+    price: 270,
+    inBasket: true,
+    directory: "",
+    button: "",
+  },
+  {
+    id: "SPTropik",
+    title: "Тропик",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/Tropik.jpg"),
+    image: require("../images/Storonie/SPTropik.jpg"), // Прямой URL для удаленного изображения
+    price: 225,
+    inBasket: true,
+    directory: "",
+    button: "",
+    /*marker: require('../images/Exclamation_marker.png'),
+		markerTitle: 'Повышена цена на 5.',*/
+  },
+  {
+    id: "SPHorni",
+    title: "Хорны",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/Horni.jpg"),
+    image: require("../images/Storonie/SPHorni.jpg"), // Прямой URL для удаленного изображения
+    price: 230,
+    inBasket: true,
+    directory: "",
+    button: "",
+  },
+  {
+    id: "SPDzyanshi",
+    title: "Дзяньши",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/Dzyanshi.jpg"),
+    image: require("../images/Storonie/SPDzyanshi.jpg"),
+    price: 170,
+    inBasket: false,
+    directory: "",
+    button: "",
+  },
+  {
+    id: "SPKrasnaya_Zvezda",
+    title: "Красная Звезда",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/Krasnaya_Zvezda.jpg"),
+    image: require("../images/Storonie/SPKrasnaya_Zvezda.jpg"),
+    price: 160,
+    inBasket: false,
+    directory: "Вероятность успешного использования Артефакта: 33.33%",
+    button: "",
+    marker: require("../images/marker_new.png"),
+    markerTitle: "Новая адаптированная Боевая единица",
+  },
+];

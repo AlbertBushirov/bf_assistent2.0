@@ -1,0 +1,169 @@
+@use "../../styles/variables" as *;
+
+.filter {
+  @include flex-column;
+  gap: 24px;
+  max-width: 392px;
+  padding: 24px;
+  background-color: var(--bg-card);
+  border-radius: $radius;
+  input {
+    border-radius: $radius;
+    border: $border-default;
+    padding: 12px 24px;
+    font-size: $font-size;
+    outline: none;
+    transition:
+      border 0.2s ease-in-out,
+      background-color 0.2s ease-in-out;
+  }
+
+  span {
+    color: #474747bb;
+    font-size: 14px;
+  }
+
+  input:hover {
+    border: 1px solid var(--hover-button);
+    cursor: pointer;
+  }
+
+  input:focus {
+    border: 1px solid var(--hover-button);
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+
+  ul {
+    max-height: 242px;
+    flex-wrap: wrap;
+    gap: 8px;
+    display: flex;
+    overflow-y: auto;
+  }
+
+  a {
+    color: var(--accent);
+    width: max-content;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  &__label {
+    height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    img {
+      height: 100%;
+    }
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__checkbox:checked + .filter__label {
+    opacity: 1;
+  }
+
+  &__limit {
+    display: flex;
+    gap: 2px;
+  }
+
+  &__limit-button {
+    border-radius: 12px;
+    border: 0.5px solid #e8e8e8;
+    padding: 12px;
+    font-size: 20px;
+  }
+}
+
+.filter-mobile-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .filter-mobile-toggle {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+
+    background-image: url("../../images/filter/filter-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 83px;
+    right: 20px;
+    z-index: 2;
+    &.is-open {
+      z-index: 1001;
+      background-image: none;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: black;
+      border: none;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .filter {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background: white;
+    z-index: 1000;
+    padding: 60px 20px 20px;
+    margin-top: 60px;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .filter--open {
+    transform: translateX(0);
+  }
+
+  .filter-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+}

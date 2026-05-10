@@ -1,0 +1,111 @@
+@use "../../styles/variables" as *;
+
+.header {
+  position: fixed;
+  @include flex-center;
+  background-color: var(--bg-card);
+  height: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  &__container {
+    display: flex;
+    gap: 180px;
+  }
+
+  &__basket-counter {
+    display: flex;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 65px;
+  }
+
+  &__main {
+    display: flex;
+    gap: 70px;
+  }
+
+  ul {
+    display: flex;
+    li {
+      padding: 20px 15px;
+
+      a:hover {
+        color: var(--accent);
+      }
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .active-link {
+    color: var(--accent);
+  }
+
+  &__logo {
+    width: 70px;
+  }
+}
+
+.basket_conteiner {
+  &__button {
+    position: relative;
+  }
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  span {
+    display: block;
+    min-width: 160px;
+  }
+}
+
+.short-text {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .full-text {
+    display: none;
+  }
+  .short-text {
+    display: inline;
+  }
+
+  .header {
+    &__main {
+      gap: 0px;
+    }
+    &__container {
+      position: relative;
+      grid-template-columns: min-content min-content min-content;
+      width: 100%;
+      display: grid !important;
+      grid-template-rows: auto 1fr;
+      justify-content: center;
+      gap: 0px;
+      &__price {
+        background-color: white;
+        padding-bottom: 5px;
+        position: absolute;
+        bottom: -25px;
+        left: 0;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-align: center;
+        width: 100vw;
+      }
+    }
+    ul {
+      li {
+        padding: 20px 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,218 @@
+@use "../../styles/variables" as *;
+
+.previewPage {
+  background-color: #1f1f1f;
+  &--koldun {
+    background-color: #420c4a;
+  }
+
+  &--nekromant {
+    background-color: #2e2940;
+  }
+
+  &--charodey {
+    background-color: #4b1616;
+  }
+
+  &--gvs {
+    background-color: #16341c;
+  }
+
+  &--neutralSquad {
+    background-color: #3f2e03;
+  }
+
+  &--legionBlackPlanet {
+    background-color: #0d1333;
+  }
+  &--ArmyFallenMage {
+    background-color: #4d2a04;
+  }
+
+  &--BAZA {
+    background-color: #6d0e8c;
+  }
+  &--AllianceFree {
+    background-color: #022924;
+  }
+
+  &--weapons {
+    background-color: #003d4a;
+    .shell__list {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      label {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  &--fightMachine {
+    background-color: #003d4a;
+    grid-template-columns: repeat(2, 1fr);
+    .weapon__list {
+      align-self: center;
+      justify-items: start;
+      grid-column: 2;
+    }
+  }
+  display: grid;
+
+  gap: 40px;
+
+  background-image: url("../../images/Fons/fon_Preview2.jpg");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: contain;
+
+  &__controls {
+    grid-column: 1 / -1;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    //border: 1px solid #fe6637;
+
+    span {
+      width: 80px;
+    }
+    button {
+      @include button_controls;
+    }
+    &__like {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 25px;
+      height: 22px;
+      background-image: url(../../images/like.png);
+      background-position: center;
+      background-size: cover;
+      border: none;
+      margin-left: 15px;
+      transition:
+        transform 0.2s,
+        filter 0.3s;
+
+      &:hover {
+        filter: brightness(1.2);
+      }
+
+      &:active {
+        transform: scale(0.9);
+      }
+      @media (max-width: 450px) {
+        left: 100px;
+        margin-inline: 15px;
+        position: absolute;
+        width: 40px;
+        height: 35px;
+      }
+    }
+    &__like[type="checkbox"]:checked {
+      background-image: url(../../images/like_active.png);
+      animation: heartBeat 0.4s linear;
+    }
+  }
+
+  p {
+    max-width: 720px;
+    padding-inline: 40px;
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+  }
+
+  &__image {
+    width: 100%;
+    min-height: 355px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    //max-height: 580px;
+
+    &--fightMachine {
+      max-height: 600px;
+    }
+
+    &.loaded {
+      opacity: 1; // Проявляем картинку плавно после загрузки
+    }
+  }
+  .img-wrapper {
+    position: relative;
+    max-width: 800px;
+    min-width: 800px;
+    min-height: 400px;
+    overflow: hidden;
+    &--fightMachine {
+      min-height: 600px;
+      min-width: 360px;
+    }
+  }
+
+  &__imageArtefact {
+    grid-column: 1;
+    max-height: 250px;
+    justify-self: center;
+    align-self: center;
+  }
+
+  label {
+    justify-self: center;
+    color: white;
+    .wheels {
+      font-size: 20px;
+    }
+  }
+}
+
+.skeleton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite; // Плавное мерцание
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .previewPage {
+    &__image {
+      min-height: 0px;
+    }
+    .img-wrapper {
+      min-width: 0px;
+      min-height: 220px;
+    }
+    &__controls {
+      &__like {
+        position: relative;
+        left: 0px;
+        width: 31px;
+        height: 25px;
+      }
+    }
+    .weapon__list {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+  }
+}

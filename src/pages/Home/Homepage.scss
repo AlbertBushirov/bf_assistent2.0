@@ -1,0 +1,120 @@
+@use "../../styles/variables" as *;
+
+.home {
+  @include flex-start;
+
+  margin-top: 90px;
+
+  margin: 90px auto 0;
+  &__container {
+    position: relative;
+    margin-bottom: 170px;
+    display: flex;
+  }
+
+  &__menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    top: 0;
+    left: -200px;
+    gap: 10px;
+    a {
+      display: flex;
+      align-items: center;
+    }
+    a:hover {
+      color: var(--accent);
+    }
+    span {
+      margin-left: 10px;
+    }
+    img {
+      width: 20px;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    width: 600px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    li {
+      border-radius: 12px;
+      overflow: hidden;
+      background-color: white;
+      border: 1px solid #ddd;
+
+      img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        transition: opacity 0.3s ease;
+      }
+      p {
+        white-space: pre-line;
+        padding: 20px;
+        line-height: 1.2;
+      }
+    }
+  }
+
+  &__image-container {
+    position: relative;
+    aspect-ratio: 10 / 7.4;
+    background-color: #f0f0f0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  &__button {
+    color: var(--accent);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  &__button:hover {
+    background-color: var(--accent);
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    position: relative;
+    display: block;
+
+    &__container {
+      position: static;
+    }
+    &__list {
+      li {
+        width: 100vw;
+        p {
+          padding: 10px;
+        }
+      }
+    }
+    &__menu {
+      background-color: white;
+      position: fixed;
+      top: auto;
+      gap: 0px;
+      bottom: 0px;
+      padding: 5px;
+      left: 0;
+      width: 100vw;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      z-index: 2;
+    }
+  }
+}

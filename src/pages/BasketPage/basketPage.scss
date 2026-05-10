@@ -1,0 +1,175 @@
+@use "../../styles/variables" as *;
+
+.basket {
+  color: white;
+  background-image: url("../../images/Fons/fon_Preview2.jpg");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: contain;
+  background-color: #3d4a4d;
+  overflow-y: auto;
+  height: 95vh;
+  box-sizing: content-box;
+  width: 1200px;
+  @include scrollbar;
+
+  &__title {
+    background-color: black;
+    text-align: center;
+    padding-block: 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  &__controls {
+    @include controls;
+    justify-content: space-between;
+    .button__clear {
+      @include button_controls;
+    }
+
+    &__save_button {
+      padding-inline: 10px;
+      width: 25px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &__list {
+    padding: 50px 30px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__item {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    & > * {
+      flex-shrink: 0;
+    }
+    // Обращаемся к последнему прямому потомку
+    & > *:last-child {
+      margin-left: auto;
+    }
+  }
+
+  &__item-delete:before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    -webkit-mask-image: url("../../images/trash.svg");
+    mask-image: url("../../images/trash.svg");
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+    background-color: gray; // Исходный цвет
+  }
+
+  &__item-delete:hover:before {
+    background-color: #fe6637; // Цвет при наведении
+  }
+
+  &__item-aside {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &__image {
+    max-height: 260px;
+  }
+
+  &__description {
+    max-height: 200px;
+  }
+}
+
+.weapons_conteiner {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .shell__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.is-exporting .basket__item-aside {
+  display: none !important;
+}
+
+.is-exporting .basket__item {
+  justify-content: flex-start !important;
+  gap: 20px !important;
+}
+
+.is-exporting .basket__image,
+.is-exporting .weapons_conteiner,
+.is-exporting .shell__list,
+.is-exporting label {
+  margin: 0 !important;
+  flex-grow: 0 !important;
+}
+
+.basket__total-print {
+  display: none;
+}
+
+.is-exporting .basket__total-print {
+  display: block !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 2px solid #ccc;
+}
+
+.weapons_span {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  .basket {
+    width: 100vw;
+    height: 100vh;
+    &__list {
+      padding: 40px 10px;
+    }
+    &__item {
+      box-sizing: content-box;
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      width: 100%;
+      -webkit-overflow-scrolling: touch;
+      & > *:last-child {
+        margin-left: 0;
+      }
+    }
+
+    &__image {
+      max-height: 190px;
+    }
+
+    &__description {
+      max-height: 150px;
+    }
+  }
+}

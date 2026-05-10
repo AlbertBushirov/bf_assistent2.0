@@ -1,0 +1,118 @@
+@use "../../styles/variables" as *;
+
+.rating {
+  @include scrollbar;
+  width: 1200px;
+  background-color: black;
+  box-sizing: content-box;
+  overflow-y: auto;
+  color: white;
+  height: 95vh;
+
+  &__index {
+    font-size: 25px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.411);
+  }
+
+  &__header {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1.2fr 2fr 2fr 2fr 2fr 2fr;
+    padding-block: 10px;
+    padding-inline: 5px;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+  }
+
+  &__list {
+    padding-block: 36px;
+    padding-inline: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__list-img {
+    border: 6px solid transparent;
+    border-image: url(../../images/Fons/fling.png) 30% stretch;
+    width: 100px;
+    aspect-ratio: 1/1;
+  }
+
+  &__item {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+      url(../../images/Fons/Fon_Rating.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 1.2fr 2fr 2fr 2fr 2fr 2fr;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.459);
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+    &__achievement {
+      max-width: 40px;
+      cursor: pointer;
+    }
+  }
+
+  &__footer {
+    @include controls;
+    justify-content: space-between;
+    span,
+    a {
+      padding-inline: 15px;
+    }
+    text-align: center;
+    &__button {
+      @include button_controls;
+    }
+  }
+
+  &__achievements {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rating {
+    font-size: 10px;
+    width: 100vw;
+    height: 100vh;
+    &__item {
+      height: 80px;
+      padding-block: 2px;
+      &__achievement {
+        max-width: 25px;
+      }
+    }
+    &__list-img {
+      width: 70px;
+    }
+    &__achievements {
+      grid-template-columns: repeat(3, auto);
+      overflow-x: auto;
+      height: 72px;
+      max-width: 81px;
+      align-items: center;
+    }
+    &__index {
+      font-size: 15px;
+    }
+
+    &__name {
+      padding-inline: 3px;
+    }
+  }
+}

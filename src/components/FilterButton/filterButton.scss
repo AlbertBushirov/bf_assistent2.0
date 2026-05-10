@@ -1,0 +1,41 @@
+&__buttons {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+&__item {
+  display: flex;
+  align-items: center;
+}
+
+&__checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+&__label {
+  height: 40px;
+  cursor: pointer;
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 0.2s;
+  img {
+    height: 100%;
+  }
+}
+
+&__group {
+  display: flex; /* Кнопки внутри группы встанут в ряд */
+  flex-direction: row;
+  gap: 10px; /* Расстояние между картинками */
+  align-items: center;
+}
+
+&__checkbox:checked + .filter__label {
+  opacity: 0.6;
+}

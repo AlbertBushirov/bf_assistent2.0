@@ -1,0 +1,165 @@
+@use "../../styles/variables" as *;
+
+details {
+  position: relative;
+  width: fit-content;
+  display: block;
+  & summary ~ * {
+    display: block !important;
+  }
+
+  summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    &::before {
+      @include marker-question;
+      background-image: url(../../images/Vector.png);
+      transition: transform 0.3s ease-in-out;
+      left: -2px;
+    }
+  }
+  .active {
+    color: var(--accent);
+  }
+
+  ul {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    z-index: 10;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    margin: 0;
+
+    min-width: 310px;
+    transition: max-height 0.5s ease;
+    list-style: none;
+    //Анимация
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    max-height: 0;
+    overflow: hidden;
+
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease,
+      visibility 0.3s,
+      max-height 0.4s ease-in-out;
+    li {
+      position: relative;
+      &:not(:last-child) {
+        border-bottom: 0.3px solid rgba(46, 46, 49, 0.123);
+      }
+    }
+
+    .faction {
+      a {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 35px;
+
+        &::before {
+          content: "";
+          left: 0;
+          position: absolute;
+
+          display: block;
+          width: 30px; /* Размер круга */
+          height: 30px; /* Размер круга */
+          border-radius: 50%;
+          background-size: 80%; /* Картинка будет чуть меньше круга */
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+
+      &--koldun {
+        a::before {
+          background-image: url("../../images/Fons/Fon_Coldun.png");
+          background-color: #420c4a;
+        }
+      }
+      &--nekromant {
+        a::before {
+          background-image: url("../../images/Fons/Fon_Necromant.png");
+          background-color: #2e2940;
+        }
+      }
+      &--charodey {
+        a::before {
+          background-image: url("../../images/Fons/Fon_Charodey.png");
+          background-color: #4b1616;
+        }
+      }
+      &--gvs {
+        a::before {
+          background-image: url("../../images/Fons/Fon_GVS.png");
+          background-color: #16341c;
+        }
+      }
+      &--neutralSquad {
+        a::before {
+          background-image: url("../../images/Fons/Fon_Neutral.png");
+          background-color: #3f2e03;
+        }
+      }
+      &--xBunker {
+        a::before {
+          background-image: url("../../images/Fons/Fon_X-Bunker.png");
+          background-color: #1f1f1f;
+        }
+      }
+      &--legionBlackPlanet {
+        a::before {
+          background-image: url("../../images/Fons/Fon_LCHP.png");
+          background-color: #0d1333;
+        }
+      }
+      &--ArmyFallenMage {
+        a::before {
+          background-image: url("../../images/Fons/Fon_logo_VPM.png");
+          background-color: #3f2e03;
+        }
+      }
+      &--BAZA {
+        a::before {
+          background-image: url("../../images/Fons/Fon_B.png");
+          background-color: #6d0e8c;
+        }
+      }
+      &--AllianceFree {
+        a::before {
+          background-image: url("../../images/Fons/Fon_AS.png");
+          background-color: #022924;
+        }
+      }
+    }
+  }
+
+  &[open] summary::before {
+    transform: rotate(180deg);
+  }
+
+  &[open] ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    max-height: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  details {
+    ul {
+      min-width: 280px;
+    }
+    summary {
+      padding: 20px 5px 20px 15px;
+    }
+  }
+}

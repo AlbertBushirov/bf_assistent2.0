@@ -1,0 +1,114 @@
+export const localArmyFallenMage = [
+  {
+    id: "SPNewAmazonki",
+    title: "Новые Амазонки",
+    category: "Войско павшего мага (КБФ)",
+    description: require("../images/Artefakti/NewAmazonki.jpg"),
+    image: require("../images/Storonie/SPNewAmazonki.jpg"), // Прямой URL для удаленного изображения
+    price: 240,
+    inBasket: true,
+    directory: "",
+    button: "",
+  },
+  {
+    id: "oskal_Nochi",
+    title: "Оскал Ночи",
+    category: "Войско павшего мага (КБФ)",
+    description: require("../images/Artefakti/oskal_Nochi.jpg"),
+    image: require("../images/Storonie/oskal_Nochi.jpg"), // Прямой URL для удаленного изображения
+    price: 205,
+    inBasket: true,
+    directory: "",
+    button: "",
+    /*marker: require('../images/Exclamation_marker.png'),
+		markerTitle:
+			'Повышена цена на 5. Изменено свойство Артефакта: госпиталь заменен на ранение',*/
+  },
+  {
+    id: "SPPesherniLudi",
+    title: "Пещерные Люди",
+    category: "Войско павшего мага (КБФ)",
+    description: require("../images/Artefakti/PesherniLudi.jpg"),
+    image: require("../images/Storonie/SPPesherniLudi.jpg"), // Прямой URL для удаленного изображения
+    price: 185,
+    inBasket: true,
+    directory: "",
+    button: "",
+    /*marker: require('../images/Exclamation_marker.png'),
+		markerTitle: 'Снижена цена на 5.',*/
+  },
+  {
+    id: "SPFemiskira",
+    title: "Фемискира",
+    category: "Войско павшего мага (КБФ)",
+    description: require("../images/Artefakti/Femiskira.jpg"),
+    image: require("../images/Storonie/SPFemiskira.jpg"), // Прямой URL для удаленного изображения
+    price: 170,
+    inBasket: true,
+    directory: "",
+    button: "",
+  },
+  {
+    id: "SPCherni_Ricari",
+    title: "Чёрные Рыцари",
+    category: "Войско павшего мага (КБФ)",
+    description: require("../images/Artefakti/Cherni_Ricari.jpg"),
+    image: require("../images/Storonie/SPCherni_Ricari.jpg"), // Прямой URL для удаленного изображения
+    price: 140,
+    inBasket: true,
+    directory: "",
+    button: "",
+  },
+  {
+    id: "SPShinobi",
+    title: "Клан Шиноби",
+    category: "Войско павшего мага (КБФ)",
+    description: require("../images/Artefakti/Shinobi.jpg"),
+    image: require("../images/Storonie/SPShinobi.jpg"), // Прямой URL для удаленного изображения
+    price: 185,
+    inBasket: true,
+    directory:
+      "Вероятность успешного использования артефакта при броске 2-х кубиков: 75%",
+    button: "",
+  },
+  {
+    id: "SPKamennie_Trolly",
+    title: "Каменные Тролли",
+    category: "Войско павшего мага (АОБФ)",
+    description: require("../images/Artefakti/Kamennie_Trolly.jpg"),
+    image: require("../images/Storonie/SPKamennie_Trolly.jpg"),
+    price: 250,
+    inBasket: false,
+    button: "",
+  },
+  {
+    id: "SPProidohi",
+    title: "Пройдохи",
+    category: "Войско павшего мага (АОБФ)",
+    description: require("../images/Artefakti/Proidohi.jpg"),
+    image: require("../images/Storonie/SPProidohi.jpg"),
+    price: 145,
+    inBasket: false,
+    button: "",
+  },
+  {
+    id: "SPRusskie_Skazky",
+    title: "Русские Сказки",
+    category: "Войско павшего мага (АОБФ)",
+    description: require("../images/Artefakti/Russkie_Skazky.jpg"),
+    image: require("../images/Storonie/SPRusskie_Skazky.jpg"),
+    price: 230,
+    inBasket: false,
+    button: "",
+  },
+  {
+    id: "SPHitrobany",
+    title: "Хитрованы",
+    category: "Войско павшего мага (АОБФ)",
+    description: require("../images/Artefakti/Hitrobany.jpg"),
+    image: require("../images/Storonie/SPHitrobany.jpg"),
+    price: 145,
+    inBasket: false,
+    button: "",
+  },
+];
