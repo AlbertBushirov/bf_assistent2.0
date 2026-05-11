@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c731a926.css",
-    "main.js": "/static/js/main.8a5146ad.js",
+    "main.js": "/static/js/main.6e9f4dcb.js",
     "static/media/turnamentEKB2026.jpg": "/static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
     "static/media/GVSkentavry.png": "/static/media/GVSkentavry.a1b127c45e6c05f66911.png",
     "static/media/VKzigfrid6.png": "/static/media/VKzigfrid6.eeabdcc17fdcc265afc1.png",
@@ -536,10 +536,10 @@
     "static/media/trash.svg": "/static/media/trash.149fd57d309365445ca0.svg",
     "index.html": "/index.html",
     "main.c731a926.css.map": "/static/css/main.c731a926.css.map",
-    "main.8a5146ad.js.map": "/static/js/main.8a5146ad.js.map"
+    "main.6e9f4dcb.js.map": "/static/js/main.6e9f4dcb.js.map"
   },
   "entrypoints": [
     "static/css/main.c731a926.css",
-    "static/js/main.8a5146ad.js"
+    "static/js/main.6e9f4dcb.js"
   ]
 }
