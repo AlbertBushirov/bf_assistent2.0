@@ -533,8 +533,8 @@
     "static/media/like-logo.png": "./static/media/like-logo.ef0de3e76c1d1d307071.png",
     "static/media/new-logo.png": "./static/media/new-logo.887f5f11ec9ee2584da3.png",
     "static/media/rebalance-logo.png": "./static/media/rebalance-logo.5be8004dc5e1858c7b91.png",
-    "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
     "index.html": "./index.html",
+    "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
     "main.35637bae.css.map": "./static/css/main.35637bae.css.map",
     "main.a4a4668a.js.map": "./static/js/main.a4a4668a.js.map"
   },
