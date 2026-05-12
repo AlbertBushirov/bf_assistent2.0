@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.8ddebb64.css",
+    "main.css": "./static/css/main.c2659b13.css",
     "main.js": "./static/js/main.04216a14.js",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
     "static/media/VKzigfrid6.png": "./static/media/VKzigfrid6.eeabdcc17fdcc265afc1.png",
@@ -538,11 +538,11 @@
     "static/media/rebalance-logo.png": "./static/media/rebalance-logo.5be8004dc5e1858c7b91.png",
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
-    "main.8ddebb64.css.map": "./static/css/main.8ddebb64.css.map",
+    "main.c2659b13.css.map": "./static/css/main.c2659b13.css.map",
     "main.04216a14.js.map": "./static/js/main.04216a14.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ddebb64.css",
+    "static/css/main.c2659b13.css",
     "static/js/main.04216a14.js"
   ]
 }
