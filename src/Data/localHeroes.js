@@ -1,3 +1,5 @@
+import { anarhist } from "./weapons";
+
 export const localHeroes = [
   {
     id: "Dragon",
@@ -114,5 +116,15 @@ export const localHeroes = [
     marker: require("../images/marker_new.png"),
     markerTitle: "Новая адаптированная Боевая единица",
     copyright: true,
+  },
+  {
+    id: "ObeAnarhist",
+    title: "Стальной Анархист",
+    category: "Персонаж (АОБФ)",
+    image: require("../images/TehList/ObeAnarhist.png"),
+    price: 105,
+    inBasket: true,
+    button: "",
+    weapons: [anarhist],
   },
 ];

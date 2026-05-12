@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./filter.scss";
 import { FilterButton } from "../FilterButton/FilterButton";
 
@@ -32,6 +32,19 @@ export function Filter({
   const [isOpen, setIsOpen] = useState(false);
   const toggleDrawer = () => setIsOpen(!isOpen);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    // Очистка при размонтировании компонента
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
+
   return (
     <>
       <button
@@ -40,6 +53,7 @@ export function Filter({
       >
         {isOpen ? "✕" : ""}
       </button>
+
       <aside className={`filter ${isOpen ? "filter--open" : ""}`}>
         <input
           id="search"

@@ -195,12 +195,16 @@
 
 @media (max-width: 768px) {
   .previewPage {
+    width: 100vw;
+    gap: 10px;
     &__image {
       min-height: 0px;
     }
+    &__imageArtefact {
+    }
     .img-wrapper {
       min-width: 0px;
-      min-height: 220px;
+      min-height: 200px;
     }
     &__controls {
       &__like {
@@ -213,6 +217,10 @@
     .weapon__list {
       margin-top: 10px;
       font-size: 1rem;
+    }
+    p {
+      padding-inline: 10px;
+      font-size: 15px;
     }
   }
 }

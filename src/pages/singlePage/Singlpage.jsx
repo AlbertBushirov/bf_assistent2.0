@@ -88,6 +88,17 @@ const SinglePage = () => {
     return base + shellsPrice + weaponsPrice;
   };
 
+  const getCorrectPath = (path) => {
+    if (!path) return "";
+
+    if (path.includes("bf_assistent2.0") || path.startsWith("http"))
+      return path;
+
+    if (path.startsWith("/")) return `/bf_assistent2.0${path}`;
+
+    return `/bf_assistent2.0/${path}`;
+  };
+
   return (
     <Modal>
       <div className={`previewPage previewPage--${currentFaction}`}>
@@ -95,7 +106,7 @@ const SinglePage = () => {
           {!imgLoaded && <div className="skeleton" />}
           <img
             className={`previewPage__image previewPage__image--${currentFaction} ${imgLoaded ? "loaded" : "loading"}`}
-            src={unit.image}
+            src={unit.image} // <--- Используем функцию здесь
             onLoad={() => setImgLoaded(true)}
             alt={unit.title}
           />
@@ -105,7 +116,7 @@ const SinglePage = () => {
           <img
             className="previewPage__imageArtefact"
             src={unit.description}
-            alt={unit.description}
+            alt="Артефакт отряда"
           />
         )}
 

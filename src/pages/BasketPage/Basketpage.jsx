@@ -99,10 +99,11 @@ export function Basketpage({
         <span className="basket__title">Просмотр Армии</span>
 
         <motion.ul className="basket__list" ref={basketListRef}>
-          <AnimatePresence mode="popLayout">
+          <AnimatePresence>
             {sortUnits.length === 0 ? (
               <motion.span
                 key="empty-message"
+                layout
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
@@ -124,7 +125,12 @@ export function Basketpage({
                     transition: { duration: 0.2 },
                   }}
                   transition={{
-                    layout: { type: "spring", stiffness: 300, damping: 30 },
+                    layout: {
+                      type: "spring",
+                      stiffness: 500,
+                      damping: 50,
+                      mass: 1,
+                    },
                   }}
                 >
                   <img
@@ -166,7 +172,9 @@ export function Basketpage({
                   {unit.weapons && (
                     <div className="weapons_conteiner">
                       <span className="weapons_span">
-                        Выбранное вооружение:
+                        {unit.selectedWeapons.length > 0
+                          ? "Выбранное вооружение:"
+                          : ""}
                       </span>
                       {unit.selectedWeapons?.map((weapon) => (
                         <div key={weapon.id}>

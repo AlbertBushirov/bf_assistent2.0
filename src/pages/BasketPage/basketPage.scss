@@ -150,12 +150,12 @@
     width: 100vw;
     height: 100vh;
     &__list {
-      padding: 40px 10px;
+      padding: 40px 2px;
     }
     &__item {
       box-sizing: content-box;
       overflow-x: auto;
-      overflow-y: hidden;
+
       white-space: nowrap;
       width: 100%;
       -webkit-overflow-scrolling: touch;

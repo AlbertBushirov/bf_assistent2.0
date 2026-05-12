@@ -96,3 +96,9 @@ export const rocketProjectile = {
   price: 20,
   image: require("../images/TehList/rocket.png"),
 };
+
+export const anarhist = {
+  title: "Стрельба 2",
+  price: 15,
+  image: require("../images/BM/Anarhist.png"),
+};

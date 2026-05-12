@@ -110,26 +110,48 @@
   .filter-mobile-toggle {
     display: block;
     position: absolute;
-    width: 20px;
-    height: 20px;
+    // Увеличиваем размер для удобства пальца
+    width: 40px;
+    height: 40px;
 
+    // Центрируем иконку внутри увеличенной кнопки
     background-image: url("../../images/filter/filter-icon.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    top: 83px;
+    background-size: 24px; // Иконка будет аккуратной
+
+    background-color: rgb(
+      240,
+      240,
+      240
+    ); // Добавим фон, чтобы кнопка не терялась
+    border-radius: 8px; // Скруглим углы
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); // Тень даст объем (интуитивность)
+
+    top: 81px; // Чуть корректируем из-за нового размера
     right: 20px;
     z-index: 2;
+    transition: all 0.2s ease; // Плавная анимация
+
+    &:active {
+      transform: scale(0.9); // Визуальный отклик при нажатии
+      background-color: #f0f0f0;
+    }
+
     &.is-open {
       z-index: 1001;
       background-image: none;
-      background-color: white;
+
+      border: none;
+      box-shadow: none;
+
+      // Крестик будет по центру автоматически из-за этих свойств:
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 18px;
-      color: black;
-      border: none;
+      font-size: 22px;
+      font-weight: bold;
     }
 
     &:focus {
@@ -138,6 +160,7 @@
   }
 
   .filter {
+    overflow: hidden;
     position: fixed;
     top: 0;
     right: 0;

@@ -92,7 +92,7 @@ export function Unitspage({
         const markerMatch = !newSquadMarker || u.markerTitle === newSquadMarker;
         const rebalanceMatch =
           !rebalanceMarker ||
-          (u.markerTitle && !u.markerTitle.toLowerCase().includes("новый"));
+          (u.markerTitle && !u.markerTitle.toLowerCase().includes("новая"));
 
         const searchTerm = search.toLowerCase();
         const titleMatch = u.title?.toLowerCase().includes(searchTerm);
@@ -195,11 +195,10 @@ export function Unitspage({
   };
 
   const titleFaction = (f) => {
-    if (rebalanceMarker === "Ребаланс")
-      return "Ребаланс Боевыx Единиц (последние изменения):";
+    if (rebalanceMarker === "Ребаланс") return "Ребаланс Боевыx Единиц:";
     if (search) return "Результат поиска:";
     if (newSquadMarker === "Новая адаптированная Боевая единица")
-      return "Новые адаптированные Боевые единицы:";
+      return "Новые Боевые единицы:";
     if (likeSquadParams) return "Избранные Боевые единицы:";
 
     const faction = factions.find((item) => item.slug === f);

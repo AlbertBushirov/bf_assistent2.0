@@ -20,11 +20,11 @@ export function Homepage() {
           </NavLink>
           <NavLink>
             <img src={require("../../images/icon_tournaments_light.png")} />
-            <span>Турнир</span>
+            <span>Турнир (не готов)</span>
           </NavLink>
           <NavLink>
             <img src={require("../../images/icon_memo_light.png")} />
-            <span>Справочник</span>
+            <span>Справочник (не готов)</span>
           </NavLink>
         </div>
         <ul className="home__list">
