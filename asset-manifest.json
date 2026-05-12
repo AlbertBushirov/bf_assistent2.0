@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.4dcf43ca.css",
-    "main.js": "./static/js/main.beee3037.js",
-    "static/media/brain.jpg": "./static/media/brain.386db30e634cbca07ee1.jpg",
+    "main.css": "./static/css/main.9f8928b5.css",
+    "main.js": "./static/js/main.82edc213.js",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
     "static/media/VKzigfrid6.png": "./static/media/VKzigfrid6.eeabdcc17fdcc265afc1.png",
     "static/media/GVSpsi-komandazero.png": "./static/media/GVSpsi-komandazero.26e24b5eced489f53b02.png",
@@ -40,6 +39,7 @@
     "static/media/cups-1.png": "./static/media/cups-1.b02eb6ffeb6e235e03a2.png",
     "static/media/cups-3.png": "./static/media/cups-3.3be68df18d2e9a88ab9a.png",
     "static/media/ObeKern_Krovavoe_Kopito.jpg": "./static/media/ObeKern_Krovavoe_Kopito.c2dee28e5ee8bb61314f.jpg",
+    "static/media/brain.jpg": "./static/media/brain.0eac5f05aae51eb29886.jpg",
     "static/media/ObeRiha.jpg": "./static/media/ObeRiha.a2fcb533d2dc23b8526c.jpg",
     "static/media/ObePolbustuk.jpg": "./static/media/ObePolbustuk.ab91504b506c1bd1d568.jpg",
     "static/media/SPAlmei_Vozhdya.jpg": "./static/media/SPAlmei_Vozhdya.799ffde8e322512e6fdb.jpg",
@@ -538,11 +538,11 @@
     "static/media/rebalance-logo.png": "./static/media/rebalance-logo.5be8004dc5e1858c7b91.png",
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
-    "main.4dcf43ca.css.map": "./static/css/main.4dcf43ca.css.map",
-    "main.beee3037.js.map": "./static/js/main.beee3037.js.map"
+    "main.9f8928b5.css.map": "./static/css/main.9f8928b5.css.map",
+    "main.82edc213.js.map": "./static/js/main.82edc213.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dcf43ca.css",
-    "static/js/main.beee3037.js"
+    "static/css/main.9f8928b5.css",
+    "static/js/main.82edc213.js"
   ]
 }
