@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.5ae28365.css",
-    "main.js": "./static/js/main.0e26c645.js",
+    "main.css": "./static/css/main.d1e6dfba.css",
+    "main.js": "./static/js/main.ae3b269a.js",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
     "static/media/VKzigfrid6.png": "./static/media/VKzigfrid6.eeabdcc17fdcc265afc1.png",
     "static/media/GVSpsi-komandazero.png": "./static/media/GVSpsi-komandazero.26e24b5eced489f53b02.png",
@@ -539,11 +539,11 @@
     "static/media/rebalance-logo.png": "./static/media/rebalance-logo.5be8004dc5e1858c7b91.png",
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
-    "main.5ae28365.css.map": "./static/css/main.5ae28365.css.map",
-    "main.0e26c645.js.map": "./static/js/main.0e26c645.js.map"
+    "main.d1e6dfba.css.map": "./static/css/main.d1e6dfba.css.map",
+    "main.ae3b269a.js.map": "./static/js/main.ae3b269a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ae28365.css",
-    "static/js/main.0e26c645.js"
+    "static/css/main.d1e6dfba.css",
+    "static/js/main.ae3b269a.js"
   ]
 }
