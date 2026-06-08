@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.fcd4d92e.css",
-    "main.js": "./static/js/main.96953e43.js",
+    "main.css": "./static/css/main.c839c474.css",
+    "main.js": "./static/js/main.e888472f.js",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
     "static/media/VKzigfrid6.png": "./static/media/VKzigfrid6.eeabdcc17fdcc265afc1.png",
     "static/media/GVSpsi-komandazero.png": "./static/media/GVSpsi-komandazero.26e24b5eced489f53b02.png",
@@ -131,7 +131,6 @@
     "static/media/LNUruk-Tag.jpg": "./static/media/LNUruk-Tag.fe07bb845f00c1473189.jpg",
     "static/media/SPTvoreniyaMarkusa.jpg": "./static/media/SPTvoreniyaMarkusa.ec3150edb1c7c207de99.jpg",
     "static/media/LNCunami.jpg": "./static/media/LNCunami.86f9619132c961350b18.jpg",
-    "static/media/Ratmeni.jpg": "./static/media/Ratmeni.e3bcc4a948944b9660c7.jpg",
     "static/media/SPAmazonky_Areny.jpg": "./static/media/SPAmazonky_Areny.d3e50d32f8ac8eaeccb5.jpg",
     "static/media/SPBratyaIgarashi.jpg": "./static/media/SPBratyaIgarashi.c9d362b506d69efb4e0d.jpg",
     "static/media/LNPiton.jpg": "./static/media/LNPiton.7ce258c86560e4a434cc.jpg",
@@ -289,7 +288,6 @@
     "static/media/SPBorciZaOgon.jpg": "./static/media/SPBorciZaOgon.abd0813f172b5fa77dec.jpg",
     "static/media/SPHorni.jpg": "./static/media/SPHorni.05f9b43cc69476f1a6e7.jpg",
     "static/media/Triton.jpg": "./static/media/Triton.ce5e478d8aee7d48651e.jpg",
-    "static/media/DerzkayaStaya.jpg": "./static/media/DerzkayaStaya.cb273dadb9ae29a79ec0.jpg",
     "static/media/ObitateliBelihRavnin.jpg": "./static/media/ObitateliBelihRavnin.1778820be584202c97e3.jpg",
     "static/media/SPTritalianci.jpg": "./static/media/SPTritalianci.f00b64b78b8eb053217e.jpg",
     "static/media/SPValkirii.jpg": "./static/media/SPValkirii.f2ebc01af8c51fa8cebe.jpg",
@@ -304,12 +302,14 @@
     "static/media/SPKiberici.jpg": "./static/media/SPKiberici.175efecfb850b71a1e1e.jpg",
     "static/media/SPFangeti.jpg": "./static/media/SPFangeti.158b8e3140b1700279ae.jpg",
     "static/media/SPStalnayaPyaterka.jpg": "./static/media/SPStalnayaPyaterka.e15c960b34648c7ccbad.jpg",
+    "static/media/DerzkayaStaya.jpg": "./static/media/DerzkayaStaya.afddbb7e13a4062069d6.jpg",
     "static/media/Gally.jpg": "./static/media/Gally.74e7d2aedad25f726632.jpg",
     "static/media/fon_Preview2.jpg": "./static/media/fon_Preview2.a437dbca7c1fba7f343c.jpg",
     "static/media/SPKricheri.jpg": "./static/media/SPKricheri.f2347647816aa81e5c3a.jpg",
     "static/media/Dikobrazi.jpg": "./static/media/Dikobrazi.b8f8fa0cd639a489055d.jpg",
     "static/media/SPMinoni.jpg": "./static/media/SPMinoni.c81edaabd04e6e6a6588.jpg",
     "static/media/SPTropik.jpg": "./static/media/SPTropik.31629c9120527d4b0721.jpg",
+    "static/media/Ratmeni.jpg": "./static/media/Ratmeni.26db64df87636cd005c0.jpg",
     "static/media/OrkestrSmerty.jpg": "./static/media/OrkestrSmerty.f22446adf20a5a9147b2.jpg",
     "static/media/basket_logo.png": "./static/media/basket_logo.602a3c141858bf8fbf98.png",
     "static/media/Stalingrad.jpg": "./static/media/Stalingrad.0eae060e7c953e4ee6ba.jpg",
@@ -539,16 +539,17 @@
     "static/media/Fon_Charodey.png": "./static/media/Fon_Charodey.42462cdd63651f5873cf.png",
     "static/media/copyright-logo.png": "./static/media/copyright-logo.0aa2d7cc7223dc9fd53c.png",
     "static/media/tower-logo.png": "./static/media/tower-logo.430670331b09dddf506a.png",
+    "static/media/ekb26-logo.png": "./static/media/ekb26-logo.d896248c470ded89cf42.png",
     "static/media/like-logo.png": "./static/media/like-logo.ef0de3e76c1d1d307071.png",
     "static/media/new-logo.png": "./static/media/new-logo.887f5f11ec9ee2584da3.png",
     "static/media/rebalance-logo.png": "./static/media/rebalance-logo.5be8004dc5e1858c7b91.png",
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
-    "main.fcd4d92e.css.map": "./static/css/main.fcd4d92e.css.map",
-    "main.96953e43.js.map": "./static/js/main.96953e43.js.map"
+    "main.c839c474.css.map": "./static/css/main.c839c474.css.map",
+    "main.e888472f.js.map": "./static/js/main.e888472f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcd4d92e.css",
-    "static/js/main.96953e43.js"
+    "static/css/main.c839c474.css",
+    "static/js/main.e888472f.js"
   ]
 }
