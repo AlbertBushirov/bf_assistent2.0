@@ -127,8 +127,6 @@ export const localNeutralsquad = [
     inBasket: true,
     directory: "",
     button: "",
-    marker: require("../images/marker_new.png"),
-    markerTitle: "Новая адаптированная Боевая единица",
   },
   {
     id: "SPSled_Groma",
@@ -319,8 +317,6 @@ export const localNeutralsquad = [
     inBasket: false,
     directory: "",
     button: "",
-    marker: require("../images/marker_new.png"),
-    markerTitle: "Новая адаптированная Боевая единица",
     copyright: true,
   },
   {
@@ -369,6 +365,7 @@ export const localNeutralsquad = [
     price: 200,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPBezlikie",
@@ -379,6 +376,7 @@ export const localNeutralsquad = [
     price: 190,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPBremensky_Muzic",
@@ -390,6 +388,7 @@ export const localNeutralsquad = [
     inBasket: false,
     button: "",
     copyright: true,
+    ekb26: true,
   },
   {
     id: "SPGromovie_Kulaki",
@@ -400,6 +399,7 @@ export const localNeutralsquad = [
     price: 290,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPKarabashsky_Trolli",
@@ -420,6 +420,7 @@ export const localNeutralsquad = [
     price: 220,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPMonstryDVD",
@@ -430,6 +431,7 @@ export const localNeutralsquad = [
     price: 180,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPStepnie_Velikany",
@@ -460,8 +462,7 @@ export const localNeutralsquad = [
     price: 135,
     inBasket: false,
     button: "",
-    marker: require("../images/marker_new.png"),
-    markerTitle: "Новая адаптированная Боевая единица",
+    ekb26: true,
   },
   {
     id: "SPAlmei_Vozhdya",
@@ -472,7 +473,5 @@ export const localNeutralsquad = [
     price: 165,
     inBasket: false,
     button: "",
-    marker: require("../images/marker_new.png"),
-    markerTitle: "Новая адаптированная Боевая единица",
   },
 ];

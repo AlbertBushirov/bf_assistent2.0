@@ -9,11 +9,13 @@ export const saveBasketAsImage = async (element, totalPrice) => {
   const totalDiv = document.createElement("div");
   totalDiv.className = "basket__total-print";
   totalDiv.innerText = `Сумма ростера: ${totalPrice} очков`;
+  totalDiv.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+  totalDiv.style.padding = "16px";
 
   try {
     element.classList.add("is-exporting");
     element.style.width = "885px";
-    element.style.boxSizing = "border-box";
+
     element.appendChild(totalDiv);
 
     const canvas = await html2canvas(element, {

@@ -35,6 +35,7 @@ export function RatingPage() {
   return (
     <Modal>
       <div className="rating">
+        <h1 className="rating__title">Рейтинг игроков</h1>
         <ul className="rating__header">
           <li>Место</li>
           <li>Аватар</li>

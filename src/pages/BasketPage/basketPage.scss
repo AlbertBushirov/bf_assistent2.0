@@ -145,10 +145,28 @@
   padding-bottom: 4px;
 }
 
+.label_wheels {
+  display: flex;
+  justify-content: center;
+}
+
+.wheels {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .basket {
+    height: 90vh;
+    height: 90vh;
+  }
+}
+
 @media (max-width: 768px) {
   .basket {
     width: 100vw;
     height: 100vh;
+    height: 100dvh;
     &__list {
       padding: 40px 2px;
     }

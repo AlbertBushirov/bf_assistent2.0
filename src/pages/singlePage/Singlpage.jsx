@@ -141,11 +141,7 @@ const SinglePage = () => {
         {unit.shells && (
           <div className="shell__list">
             {unit.shells.map((shell) => (
-              <ShellInput
-                key={shell.id}
-                shell={shell}
-                setSelectedShells={setSelectedShells}
-              />
+              <ShellInput shell={shell} setSelectedShells={setSelectedShells} />
             ))}
           </div>
         )}
@@ -155,7 +151,6 @@ const SinglePage = () => {
           <div className="weapon__list">
             {unit.weapons.map((w) => (
               <WeaponItem
-                key={w.id}
                 weapon={w}
                 countWeapons={countWeapons}
                 setCountWeapons={setCountWeapons}

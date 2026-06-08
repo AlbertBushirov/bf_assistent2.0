@@ -7,7 +7,6 @@ export function WeaponItem({
   setCountWeapons,
   selectedWeapons,
   setSelectedWeapons,
-  key,
 }) {
   const [count, setCount] = useState(0);
 
@@ -37,7 +36,7 @@ export function WeaponItem({
   };
 
   return (
-    <div key={key} className="weapon-row">
+    <div key={weapon.id} className="weapon-row">
       <span>
         {weapon.title} [{weapon.price}]
       </span>

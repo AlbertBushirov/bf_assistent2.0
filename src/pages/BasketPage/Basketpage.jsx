@@ -148,7 +148,10 @@ export function Basketpage({
                   )}
 
                   {unit.wheelsPrise && (
-                    <label onClick={(e) => e.stopPropagation()}>
+                    <label
+                      className="label_wheels"
+                      onClick={(e) => e.stopPropagation()}
+                    >
                       <span className="wheels">Шины</span>
                       <input
                         type="checkbox"
@@ -161,11 +164,13 @@ export function Basketpage({
                   {unit.shells && (
                     <div className="shell__list">
                       <span className="weapons_span">Выбранные снаряды:</span>
-                      {unit.selectedShells?.map((shell, index) => (
-                        <div key={index}>
-                          <img src={shell.image} alt={shell.title} />
-                        </div>
-                      ))}
+                      <div>
+                        {unit.selectedShells?.map((shell, index) => (
+                          <div key={index}>
+                            <img src={shell.image} alt={shell.title} />
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   )}
 

@@ -9,6 +9,7 @@ export const localAllianceFree = [
     inBasket: true,
     directory: "",
     button: "",
+    copyright: true,
   },
   {
     id: "SPGeroyBilin",
@@ -20,6 +21,7 @@ export const localAllianceFree = [
     inBasket: true,
     directory: "Вероятность успешного использования Артефакта: 33.33%",
     button: "",
+    copyright: true,
   },
   {
     id: "SPChasticiRazuma",
@@ -78,10 +80,13 @@ export const localAllianceFree = [
     category: "Альянс Свободных (КБФ)",
     description: require("../images/Artefakti/BratyaIgarashi.jpg"),
     image: require("../images/Storonie/SPBratyaIgarashi.jpg"), // Прямой URL для удаленного изображения
-    price: 200,
+    price: 210,
     inBasket: true,
     directory: "",
     button: "",
+    tower: true,
+    marker: require("../images/Exclamation_marker.png"),
+    markerTitle: "Добавлена Башня. Увеличена цена на 10",
   },
   {
     id: "SPValkirii",
@@ -186,6 +191,7 @@ export const localAllianceFree = [
     directory:
       "Вероятность успешного использования Артефакта при броске 4 кубиков: 51.8%, 3 кубиков: 42.1%",
     button: "",
+    ekb26: true,
   },
   {
     id: "SPZeleznaya_Orda",
@@ -196,7 +202,9 @@ export const localAllianceFree = [
     price: 220,
     inBasket: false,
     directory: "",
+    copyright: true,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPGornie_Klani",
@@ -208,6 +216,7 @@ export const localAllianceFree = [
     inBasket: false,
     directory: "",
     button: "",
+    ekb26: true,
   },
   {
     id: "SPDolg",
@@ -220,6 +229,7 @@ export const localAllianceFree = [
     directory: "",
     button: "",
     copyright: true,
+    ekb26: true,
   },
   {
     id: "SPZhelezni_Drakon",
@@ -231,6 +241,7 @@ export const localAllianceFree = [
     inBasket: false,
     directory: "",
     button: "",
+    ekb26: true,
   },
   {
     id: "SPLesnie_Vedmi",
@@ -243,6 +254,7 @@ export const localAllianceFree = [
     directory: "Вероятность успешного использования артефакта: 30.5%",
     button: "",
     copyright: true,
+    ekb26: true,
   },
   {
     id: "SPMeotida",
@@ -253,6 +265,7 @@ export const localAllianceFree = [
     price: 170,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPMertvi_Kosmos",
@@ -263,6 +276,7 @@ export const localAllianceFree = [
     price: 170,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPNechistaya_Sila",
@@ -273,6 +287,8 @@ export const localAllianceFree = [
     price: 195,
     inBasket: false,
     button: "",
+    copyright: true,
+    ekb26: true,
   },
   {
     id: "SPOtdel_Z",
@@ -283,6 +299,7 @@ export const localAllianceFree = [
     price: 155,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPOhotniki_na_Mamontov",
@@ -293,6 +310,7 @@ export const localAllianceFree = [
     price: 155,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPOhotnici_za_Golovami",
@@ -304,6 +322,7 @@ export const localAllianceFree = [
     inBasket: false,
     directory: "Вероятность успешного использования артефакта: 67%",
     button: "",
+    ekb26: true,
   },
   {
     id: "SPPescherni_Trolli",
@@ -314,6 +333,7 @@ export const localAllianceFree = [
     price: 210,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPRaion_Z",
@@ -325,6 +345,7 @@ export const localAllianceFree = [
     inBasket: false,
     directory: "Вероятность успешного использования артефакта: 33.3%",
     button: "",
+    ekb26: true,
   },
   {
     id: "SPRatmeni",
@@ -347,6 +368,7 @@ export const localAllianceFree = [
     price: 185,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPSindikat",
@@ -367,6 +389,7 @@ export const localAllianceFree = [
     price: 180,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPGarem_Sukkuba",
@@ -377,6 +400,7 @@ export const localAllianceFree = [
     price: 190,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPHalflingy",
@@ -387,6 +411,7 @@ export const localAllianceFree = [
     price: 150,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPShpicbergen",
@@ -397,6 +422,7 @@ export const localAllianceFree = [
     price: 195,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPEllada",
@@ -407,6 +433,7 @@ export const localAllianceFree = [
     price: 190,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPBagrovie_Balahony",

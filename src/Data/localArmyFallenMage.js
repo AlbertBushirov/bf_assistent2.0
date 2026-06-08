@@ -80,6 +80,7 @@ export const localArmyFallenMage = [
     price: 250,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPProidohi",
@@ -90,6 +91,7 @@ export const localArmyFallenMage = [
     price: 145,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPRusskie_Skazky",
@@ -100,6 +102,7 @@ export const localArmyFallenMage = [
     price: 230,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPHitrobany",
@@ -110,5 +113,6 @@ export const localArmyFallenMage = [
     price: 145,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
 ];

@@ -7,6 +7,7 @@ import { Unitspage } from "./pages/unitPage/Unitspage";
 import { Basketpage } from "./pages/BasketPage/Basketpage";
 import { Homepage } from "./pages/Home/Homepage";
 import { RatingPage } from "./pages/ratingPage/ratingPage";
+import { MemoPage } from "./pages/memoPage/memoPage";
 
 import { Layout } from "./components/Layout/Layout";
 
@@ -32,6 +33,7 @@ function App() {
 
         <Route path="home" element={<Homepage />}>
           <Route path="rating" element={<RatingPage />} />
+          <Route path="memo" element={<MemoPage />} />
         </Route>
 
         <Route

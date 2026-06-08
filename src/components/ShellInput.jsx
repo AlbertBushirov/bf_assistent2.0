@@ -20,7 +20,7 @@ export const ShellInput = ({ shell, setSelectedShells }) => {
   };
 
   return (
-    <label>
+    <label key={shell.id}>
       <img src={shell.image} alt={shell} />
       <div>
         {" "}

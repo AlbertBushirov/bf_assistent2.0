@@ -123,9 +123,11 @@
   }
 
   p {
+    display: block; /* Превращаем в блочный элемент, чтобы работали max-width и margin */
     max-width: 720px;
+    margin-inline: auto; /* Выравнивает сам span по центру родительского контейнера */
     padding-inline: 40px;
-    text-align: center;
+    text-align: center; /* Центрирует строки текста внутри span */
     line-height: 1.6;
     color: white;
   }
@@ -142,7 +144,7 @@
     }
 
     &.loaded {
-      opacity: 1; // Проявляем картинку плавно после загрузки
+      opacity: 1;
     }
   }
   .img-wrapper {
@@ -195,12 +197,18 @@
 
 @media (max-width: 768px) {
   .previewPage {
-    width: 100vw;
+    width: 100%;
+    height: auto;
+    // display: block;
+
     gap: 10px;
     &__image {
       min-height: 0px;
     }
     &__imageArtefact {
+      width: 100%;
+      height: auto;
+      display: block;
     }
     .img-wrapper {
       min-width: 0px;

@@ -58,9 +58,9 @@ export const localXBunker = [
     inBasket: true,
     directory: "",
     button: "",
-    marker: require("../images/Exclamation_marker.png"),
+    /*marker: require("../images/Exclamation_marker.png"),
     markerTitle:
-      "Ослаблен Артефакт. Установить воина можно только вне рукопашных схваток",
+      "Ослаблен Артефакт. Установить воина можно только вне рукопашных схваток",*/
   },
   {
     id: "SPShampanoidi",
@@ -141,6 +141,16 @@ export const localXBunker = [
     price: 160,
     inBasket: false,
     directory: "Вероятность успешного использования Артефакта: 33.33%",
+    button: "",
+  },
+  {
+    id: "SPMachete",
+    title: "Мачете",
+    category: "Х-Бункер (КБФ)",
+    description: require("../images/Artefakti/SPMachete.jpg"),
+    image: require("../images/Storonie/SPMachete.jpg"),
+    price: 205,
+    inBasket: false,
     button: "",
     marker: require("../images/marker_new.png"),
     markerTitle: "Новая адаптированная Боевая единица",

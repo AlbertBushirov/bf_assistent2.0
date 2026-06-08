@@ -102,8 +102,6 @@ export const localWeapons = [
     inBasket: true,
     button: "",
     directory: "",
-    marker: require("../images/Exclamation_marker.png"),
-    markerTitle: "Снижена цена на 5.",
   },
 
   {

@@ -8,7 +8,7 @@
   margin: 90px auto 0;
   &__container {
     position: relative;
-    margin-bottom: 170px;
+    margin-bottom: 40px;
     display: flex;
   }
 
@@ -19,7 +19,7 @@
 
     top: 0;
     left: -200px;
-    gap: 10px;
+    gap: 15px;
     a {
       display: flex;
       align-items: center;
@@ -76,9 +76,10 @@
     position: absolute;
     bottom: 10px;
     left: 10px;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(255, 255, 255);
     padding: 12px;
     border-radius: 12px;
+    border: 1px solid var(--accent);
   }
 
   &__button:hover {
@@ -91,9 +92,14 @@
   .home {
     position: relative;
     display: block;
-
+    a {
+      span {
+        display: none;
+      }
+    }
     &__container {
       position: static;
+      margin-bottom: 50px;
     }
     &__list {
       li {
@@ -113,7 +119,8 @@
       left: 0;
       width: 100vw;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-auto-flow: column;
+      justify-items: center;
       z-index: 2;
     }
   }

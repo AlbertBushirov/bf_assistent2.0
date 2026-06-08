@@ -195,15 +195,23 @@ export function Unitspage({
   };
 
   const titleFaction = (f) => {
-    if (rebalanceMarker === "Ребаланс") return "Ребаланс Боевыx Единиц:";
+    if (rebalanceMarker === "Ребаланс")
+      return `Ребаланс Боевыx Единиц: (${filteredAndSortedUnits.length})`;
     if (search) return "Результат поиска:";
     if (newSquadMarker === "Новая адаптированная Боевая единица")
-      return "Новые Боевые единицы:";
-    if (likeSquadParams) return "Избранные Боевые единицы:";
+      return `Новые Боевые единицы: (${filteredAndSortedUnits.length})`;
+    if (likeSquadParams)
+      return `Избранные Боевые единицы: (${filteredAndSortedUnits.length})`;
+    if (faction === "heroes")
+      return `Боевые Персонажи (${filteredAndSortedUnits.length})`;
+    if (faction === "fightMachine")
+      return `Боевые Машины (${filteredAndSortedUnits.length})`;
+    if (faction === "weapons")
+      return `Орудия (${filteredAndSortedUnits.length})`;
 
-    const faction = factions.find((item) => item.slug === f);
+    const unit = factions.find((item) => item.slug === f);
 
-    return faction ? `${faction.title} (${faction.number})` : "";
+    return unit ? `${unit.title} (${filteredAndSortedUnits.length})` : "";
   };
 
   return (

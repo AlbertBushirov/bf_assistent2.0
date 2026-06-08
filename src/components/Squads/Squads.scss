@@ -26,28 +26,27 @@ details {
 
   ul {
     position: absolute;
-    top: 64px;
+    top: 60px;
     left: 0;
     z-index: 10;
     background-color: var(--bg-card);
     border: 1px solid var(--border);
     margin: 0;
-
     min-width: 310px;
-    transition: max-height 0.5s ease;
     list-style: none;
-    //Анимация
+    box-sizing: border-box;
+
+    /* Анимация и скрытие по умолчанию */
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
     max-height: 0;
     overflow: hidden;
-
     transition:
+      max-height 0.3s ease,
       opacity 0.3s ease,
       transform 0.3s ease,
-      visibility 0.3s,
-      max-height 0.4s ease-in-out;
+      visibility 0.3s;
     li {
       position: relative;
       &:not(:last-child) {
@@ -149,7 +148,8 @@ details {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
-    max-height: 1000px;
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
   }
 }
 

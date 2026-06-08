@@ -13,6 +13,7 @@ const showButtons = [
   { id: "like", image: require("../../images/filter/like-logo.png") },
   { id: "new", image: require("../../images/filter/new-logo.png") },
   { id: "rebalance", image: require("../../images/filter/rebalance-logo.png") },
+  { id: "ekb26", image: require("../../images/filter/ekb26-logo.png") },
 ];
 
 export function Filter({
@@ -39,7 +40,6 @@ export function Filter({
       document.body.style.overflow = "";
     }
 
-    // Очистка при размонтировании компонента
     return () => {
       document.body.style.overflow = "";
     };
