@@ -29,6 +29,8 @@ export function Filter({
   likeSquadParams,
   rebalanceMarker,
   toggleRebalanceFilter,
+  ekb26Marker,
+  toggleEkb26Filter,
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const toggleDrawer = () => setIsOpen(!isOpen);
@@ -97,6 +99,11 @@ export function Filter({
               button={showButtons[2]}
               isChecked={!!rebalanceMarker}
               onToggle={toggleRebalanceFilter}
+            />
+            <FilterButton
+              button={showButtons[3]}
+              isChecked={!!ekb26Marker}
+              onToggle={toggleEkb26Filter}
             />
           </div>
         </div>

@@ -242,4 +242,17 @@ export const localGVS = [
     /*marker: require('../images/Exclamation_marker.png'),
 		markerTitle: 'Повышена цена на 5.',*/
   },
+  {
+    id: "GVSShidy",
+    title: "Спартанцы Шиду",
+    category: "Гильдия вольных стрелков",
+    description: require("../images/Artefakti/GVSShidy.jpg"),
+    image: require("../images/GVS/GVSShidy.jpg"), // Прямой URL для удаленного изображения
+    price: 255,
+    inBasket: true,
+    directory: "",
+    button: "",
+    marker: require("../images/marker_new.png"),
+    markerTitle: "Новая адаптированная Боевая единица",
+  },
 ];

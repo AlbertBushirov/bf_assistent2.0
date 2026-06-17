@@ -85,6 +85,18 @@ export const factions = [
     number: dataUnits.neutralSquad.length,
   },
   {
+    title: "Войско Павшего Мага",
+    to: "/ArmyFallenMage",
+    slug: "ArmyFallenMage",
+    number: dataUnits.ArmyFallenMage.length,
+  },
+  {
+    title: "Альянс Свободных",
+    to: "/AllianceFree",
+    slug: "AllianceFree",
+    number: dataUnits.AllianceFree.length,
+  },
+  {
     title: "Хобби Бункер",
     to: "/xBunker",
     slug: "xBunker",
@@ -96,22 +108,11 @@ export const factions = [
     slug: "legionBlackPlanet",
     number: dataUnits.legionBlackPlanet.length,
   },
-  {
-    title: "Войско Павшего Мага",
-    to: "/ArmyFallenMage",
-    slug: "ArmyFallenMage",
-    number: dataUnits.ArmyFallenMage.length,
-  },
+
   {
     title: "Б.А.З.А",
     to: "/BAZA",
     slug: "BAZA",
     number: dataUnits.BAZA.length,
-  },
-  {
-    title: "Альянс Свободных",
-    to: "/AllianceFree",
-    slug: "AllianceFree",
-    number: dataUnits.AllianceFree.length,
   },
 ];

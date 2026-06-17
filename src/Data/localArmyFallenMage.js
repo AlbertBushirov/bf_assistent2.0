@@ -102,6 +102,7 @@ export const localArmyFallenMage = [
     price: 230,
     inBasket: false,
     button: "",
+    copyright: true,
     ekb26: true,
   },
   {

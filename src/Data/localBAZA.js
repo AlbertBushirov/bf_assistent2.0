@@ -53,6 +53,7 @@ export const localBAZA = [
     inBasket: false,
     directory: "Вероятность успешного использования Артефакта: 33.33%",
     button: "",
+    ekb26: true,
   },
   {
     id: "SPStrazhy_Ra",

@@ -355,6 +355,7 @@ export const localNeutralsquad = [
     price: 170,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPApus",
@@ -410,6 +411,7 @@ export const localNeutralsquad = [
     price: 205,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPKimy",
@@ -442,6 +444,7 @@ export const localNeutralsquad = [
     price: 120,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPUzniky_Culfura",
@@ -452,6 +455,7 @@ export const localNeutralsquad = [
     price: 140,
     inBasket: false,
     button: "",
+    ekb26: true,
   },
   {
     id: "SPVisoky_Kolpaky",

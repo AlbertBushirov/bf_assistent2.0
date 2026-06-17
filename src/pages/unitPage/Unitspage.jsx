@@ -35,6 +35,7 @@ export function Unitspage({
   const [searchParams, setSearchParams] = useSearchParams();
   const newSquadMarker = searchParams.get("marker");
   const rebalanceMarker = searchParams.get("rebalance");
+  const ekb26Marker = searchParams.get("ekb26");
 
   const units = dataUnits[faction] || [];
 
@@ -77,7 +78,7 @@ export function Unitspage({
       baseList = likeUnits;
     } else {
       baseList =
-        search.trim() !== "" || newSquadMarker || rebalanceMarker
+        search.trim() !== "" || newSquadMarker || rebalanceMarker || ekb26Marker
           ? massUnits
           : units;
     }
@@ -93,6 +94,12 @@ export function Unitspage({
         const rebalanceMatch =
           !rebalanceMarker ||
           (u.markerTitle && !u.markerTitle.toLowerCase().includes("новая"));
+
+        const ekb26Match =
+          !ekb26Marker ||
+          (u.ekb26 !== true &&
+            u.tower !== true &&
+            (u.category?.includes("(КБФ)") || u.category?.includes("(АОБФ)")));
 
         const searchTerm = search.toLowerCase();
         const titleMatch = u.title?.toLowerCase().includes(searchTerm);
@@ -115,6 +122,7 @@ export function Unitspage({
         return (
           markerMatch &&
           rebalanceMatch &&
+          ekb26Match &&
           (titleMatch || priceMatch) &&
           towerMatch &&
           copyrightMatch &&
@@ -135,6 +143,7 @@ export function Unitspage({
     rebalanceMarker,
     likeSquadParams,
     likeUnits,
+    ekb26Marker,
   ]);
 
   const toggleMarkerFilter = () => {
@@ -160,6 +169,20 @@ export function Unitspage({
     } else {
       setSearchParams((prev) => {
         prev.set("rebalance", "Ребаланс");
+        return prev;
+      });
+    }
+  };
+
+  const toggleEkb26Filter = () => {
+    if (ekb26Marker === "ЕКБ-26") {
+      setSearchParams((prev) => {
+        prev.delete("ekb26");
+        return prev;
+      });
+    } else {
+      setSearchParams((prev) => {
+        prev.set("ekb26", "ЕКБ-26");
         return prev;
       });
     }
@@ -197,6 +220,8 @@ export function Unitspage({
   const titleFaction = (f) => {
     if (rebalanceMarker === "Ребаланс")
       return `Ребаланс Боевыx Единиц: (${filteredAndSortedUnits.length})`;
+    if (ekb26Marker === "ЕКБ-26")
+      return `ЕКБ26. Допущенные сторонники: (${filteredAndSortedUnits.length})`;
     if (search) return "Результат поиска:";
     if (newSquadMarker === "Новая адаптированная Боевая единица")
       return `Новые Боевые единицы: (${filteredAndSortedUnits.length})`;
@@ -270,6 +295,8 @@ export function Unitspage({
         likeSquadParams={likeSquadParams}
         rebalanceMarker={rebalanceMarker}
         toggleRebalanceFilter={toggleRebalanceFilter}
+        ekb26Marker={ekb26Marker}
+        toggleEkb26Filter={toggleEkb26Filter}
       />
       <Outlet
         context={{

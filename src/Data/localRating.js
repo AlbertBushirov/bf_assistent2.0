@@ -113,6 +113,16 @@ const ThreeSPB3 = {
   title: "Бронза турнира в Санкт-Петербурге. 2025",
 };
 
+const FourSPB1 = {
+  image: require("../images/rating/cups-1.png"),
+  title: "Чемпион турнира в Санкт-Петербурге. 2026",
+};
+
+const FourSPB2 = {
+  image: require("../images/rating/cups-2.png"),
+  title: "Серебро турнира в Санкт-Петербурге. 2026",
+};
+
 //Москва
 const OneMoscow1 = {
   image: require("../images/rating/cups-1.png"),
@@ -251,9 +261,9 @@ export const localPlayers = [
     id: "Albert_Bashirov",
     image: require("../images/photo_players/Albert_Bashirov.jpg"),
     player: "Альберт Баширов",
-    achievements: [ThreeMoscow1, ThreeSPB3, OneEkb3],
-    games: 29, //Побед: 8
-    win: 22,
+    achievements: [FourSPB1, ThreeMoscow1, ThreeSPB3, OneEkb3],
+    games: 32, //Побед: 8
+    win: 25,
   },
   {
     id: "Artur_Kovalev",
@@ -316,9 +326,9 @@ export const localPlayers = [
     image: require("../images/avatar_gamers.png"),
     player: "Виктор Петров",
     achievements: [TwoSPB1, OneSPB2, judgeThreeSPB],
-    games: 9, //Побед: 7
+    games: 13, //Побед: 7
     winrating: 78,
-    win: 7,
+    win: 9,
   },
   {
     id: "Aleksey_Fedulov",
@@ -510,8 +520,8 @@ export const localPlayers = [
     image: require("../images/avatar_gamers.png"),
     player: "Евгений Сорокин",
     achievements: [],
-    games: 28,
-    win: 12,
+    games: 32,
+    win: 15,
   },
   {
     id: "Eduard_Agievich",
@@ -759,10 +769,10 @@ export const localPlayers = [
     id: "Vadim_Basuk",
     image: require("../images/photo_players/Vadim_Basuk.jpg"),
     player: "Вадим Басюк",
-    achievements: [],
-    games: 6,
+    achievements: [FourSPB2],
+    games: 10,
     winrating: 50,
-    win: 3,
+    win: 6,
   },
   {
     id: "Maksim_Yacuk",
