@@ -44,7 +44,7 @@ export function Homepage() {
               <div className="home__image-container">
                 <img src={post.image} />
                 {post.button && (
-                  <a href={post.link} className="home__button">
+                  <a target="_blank" href={post.link} className="home__button">
                     {post.button}
                   </a>
                 )}

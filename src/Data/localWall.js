@@ -1,5 +1,5 @@
 export const localWall = [
-  /*{
+  {
     id: "turnamentEKB2026",
     image: require("../images/wall/turnamentEKB2026.jpg"),
     description: `Екатеринбург готовится к великим сражениям!
@@ -7,8 +7,8 @@ export const localWall = [
       Собирайте свои лучшие армии и вступайте в бой, ждём каждого!
       Кликай по кнопке, что бы узнать правила набора ростеров и зарегистрироваться.`,
     button: "Узнать подробнее",
-    link: "",
-  },*/
+    link: "https://vk.com/battle_fantasy_ural?z=photo-118321411_457240979%2Fecfff29762864be721",
+  },
   {
     id: "rules&memo&pamyatka",
     image: require("../images/wall/rules.jpg"),
