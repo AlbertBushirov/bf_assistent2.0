@@ -259,7 +259,7 @@ export const localPlayers = [
   },
   {
     id: "Albert_Bashirov",
-    image: require("../images/photo_players/Albert_Bashirov.jpg"),
+    image: require("../images/photo_players/Albert_Bashirov.png"),
     player: "Альберт Баширов",
     achievements: [FourSPB1, ThreeMoscow1, ThreeSPB3, OneEkb3],
     games: 32, //Побед: 8
@@ -311,6 +311,38 @@ export const localPlayers = [
     achievements: [],
     games: 15, //Побед: 10
     win: 10,
+  },
+  {
+    id: "Gleb_Dobrohodov",
+    image: require("../images/avatar_gamers.png"),
+    player: "Глеб Доброходов",
+    achievements: [],
+    games: 3,
+    win: 1,
+  },
+  {
+    id: "Kozchemyaka_Sergeevic",
+    image: require("../images/avatar_gamers.png"),
+    player: "Кожемяка Сергеевич",
+    achievements: [],
+    games: 4,
+    win: 3,
+  },
+  {
+    id: "Svetlana_Djipsy",
+    image: require("../images/avatar_gamers.png"),
+    player: "Светлана Джипси",
+    achievements: [],
+    games: 3,
+    win: 1,
+  },
+  {
+    id: "Lev_Sinugin",
+    image: require("../images/avatar_gamers.png"),
+    player: "Лев Синюгин",
+    achievements: [],
+    games: 2,
+    win: 0,
   },
   {
     id: "Mikhail_Bezgans",
@@ -670,7 +702,7 @@ export const localPlayers = [
     image: require("../images/avatar_gamers.png"),
     player: "Георгий Матвеев",
     achievements: [],
-    games: 13, //Побед: 0
+    games: 15, //Побед: 0
     winrating: 0,
     win: 0,
   },
@@ -679,15 +711,15 @@ export const localPlayers = [
     image: require("../images/avatar_gamers.png"),
     player: "Вайпер Иммортал",
     achievements: [],
-    games: 6, //Побед: 0
-    win: 3,
+    games: 9, //Побед: 0
+    win: 4,
   },
   {
     id: "Maksim_Dobrohodov",
     image: require("../images/avatar_gamers.png"),
     player: "Максим Доброходов",
     achievements: [],
-    games: 3,
+    games: 5,
     winrating: 0,
     win: 0,
   },

@@ -72,7 +72,10 @@ export function RatingPage() {
           ))}
         </ul>
         <div className="rating__footer">
-          <span>Описание: {hoveredAchievement || defaultFooterText}</span>
+          <div>
+            <span className="rating__footer__description">Описание:</span>{" "}
+            {hoveredAchievement || defaultFooterText}
+          </div>
           <a
             target="blank"
             className="rating__footer__button"
