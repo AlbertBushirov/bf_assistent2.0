@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.c839c474.css",
-    "main.js": "./static/js/main.d05be198.js",
+    "main.css": "./static/css/main.16288359.css",
+    "main.js": "./static/js/main.c56a4277.js",
     "static/media/turnamentEKB2026.jpg": "./static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
     "static/media/VKzigfrid6.png": "./static/media/VKzigfrid6.eeabdcc17fdcc265afc1.png",
@@ -27,17 +27,18 @@
     "static/media/GCHYastreb.png": "./static/media/GCHYastreb.f8e37091ef15cef1e7d6.png",
     "static/media/GVSroksburg.png": "./static/media/GVSroksburg.ecf71daf5e242dff5f9b.png",
     "static/media/GVSyupiter.png": "./static/media/GVSyupiter.933472e87934376b8d80.png",
+    "static/media/Albert_Bashirov.png": "./static/media/Albert_Bashirov.152b03ae8f5d86d5168e.png",
     "static/media/LNMagnum.png": "./static/media/LNMagnum.d782d0c3f20a5cb7b815.png",
     "static/media/LNTornadogolovotyap.png": "./static/media/LNTornadogolovotyap.af20ca6b90a94d8fbeac.png",
     "static/media/Vadim_Basuk.jpg": "./static/media/Vadim_Basuk.133f2b3dbea1b117adb1.jpg",
     "static/media/SPRatmeni.jpg": "./static/media/SPRatmeni.357b130ea4c4c63bf851.jpg",
-    "static/media/ObeKlerik.png": "./static/media/ObeKlerik.b148b2fcfcf9c11ae7e9.png",
     "static/media/ObeMasterVolshebnik.png": "./static/media/ObeMasterVolshebnik.e0967bb8b58ce66574b7.png",
     "static/media/ObeDarkShaman.png": "./static/media/ObeDarkShaman.e995ab651140c3b42fa9.png",
     "static/media/SPElfiski_Vedmy.jpg": "./static/media/SPElfiski_Vedmy.bf28f3be6d05798b4503.jpg",
-    "static/media/Albert_Bashirov.jpg": "./static/media/Albert_Bashirov.566bb05db80a3f18b640.jpg",
     "static/media/ObeDragon.jpg": "./static/media/ObeDragon.4ac9d572079bff778559.jpg",
+    "static/media/ObeKlerik.png": "./static/media/ObeKlerik.64236e0ae1dfaa6ebb9c.png",
     "static/media/cups-1.png": "./static/media/cups-1.b02eb6ffeb6e235e03a2.png",
+    "static/media/ObeBrodyachiMag.jpg": "./static/media/ObeBrodyachiMag.405250b120340f14e07b.jpg",
     "static/media/cups-3.png": "./static/media/cups-3.3be68df18d2e9a88ab9a.png",
     "static/media/ObeKern_Krovavoe_Kopito.jpg": "./static/media/ObeKern_Krovavoe_Kopito.c2dee28e5ee8bb61314f.jpg",
     "static/media/brain.jpg": "./static/media/brain.0eac5f05aae51eb29886.jpg",
@@ -188,7 +189,6 @@
     "static/media/SPGendarmes.jpg": "./static/media/SPGendarmes.973f01f6cdfd7310553c.jpg",
     "static/media/SPShampanoidi.jpg": "./static/media/SPShampanoidi.b06b6f974178e985ffde.jpg",
     "static/media/SPBremensky_Muzic.jpg": "./static/media/SPBremensky_Muzic.24c4acff7debb13b329f.jpg",
-    "static/media/ObeBrodyachiMag.jpg": "./static/media/ObeBrodyachiMag.9c15c48f0c5e5c87d738.jpg",
     "static/media/SPLesnie_Vedmi.jpg": "./static/media/SPLesnie_Vedmi.3b534a7763a84f41812d.jpg",
     "static/media/SPCrazy_food.jpg": "./static/media/SPCrazy_food.4cf0e623cdad87c9ff1c.jpg",
     "static/media/SPGornie_Klani.jpg": "./static/media/SPGornie_Klani.8dd83cdb3cf34eb28994.jpg",
@@ -547,11 +547,11 @@
     "static/media/rebalance-logo.png": "./static/media/rebalance-logo.5be8004dc5e1858c7b91.png",
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
-    "main.c839c474.css.map": "./static/css/main.c839c474.css.map",
-    "main.d05be198.js.map": "./static/js/main.d05be198.js.map"
+    "main.16288359.css.map": "./static/css/main.16288359.css.map",
+    "main.c56a4277.js.map": "./static/js/main.c56a4277.js.map"
   },
   "entrypoints": [
-    "static/css/main.c839c474.css",
-    "static/js/main.d05be198.js"
+    "static/css/main.16288359.css",
+    "static/js/main.c56a4277.js"
   ]
 }
