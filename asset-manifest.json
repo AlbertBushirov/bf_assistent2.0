@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.16288359.css",
-    "main.js": "./static/js/main.c56a4277.js",
+    "main.js": "./static/js/main.351aa5bd.js",
     "static/media/turnamentEKB2026.jpg": "./static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
     "static/media/VKzigfrid6.png": "./static/media/VKzigfrid6.eeabdcc17fdcc265afc1.png",
@@ -48,6 +48,8 @@
     "static/media/SPAlmei_Vozhdya.jpg": "./static/media/SPAlmei_Vozhdya.799ffde8e322512e6fdb.jpg",
     "static/media/Zero.png": "./static/media/Zero.7a350899d479d054099f.png",
     "static/media/SPStrazhy_Ra.jpg": "./static/media/SPStrazhy_Ra.b83d9a71e8e08a9cac1b.jpg",
+    "static/media/SPCrazy_food.jpg": "./static/media/SPCrazy_food.f75bbf043994e3d4b245.jpg",
+    "static/media/SPKarabashsky_Trolli.jpg": "./static/media/SPKarabashsky_Trolli.ab812c0d58615dc5f084.jpg",
     "static/media/SPAkkad.jpg": "./static/media/SPAkkad.79a92285087fb532afef.jpg",
     "static/media/Temnaya-Sotnya.png": "./static/media/Temnaya-Sotnya.6f659b58431077635cfc.png",
     "static/media/Mitri.png": "./static/media/Mitri.410caabb3759405fcd47.png",
@@ -55,6 +57,7 @@
     "static/media/Paladini.png": "./static/media/Paladini.234df9df5c64f24f39a7.png",
     "static/media/SPReydery_Grakkha.jpg": "./static/media/SPReydery_Grakkha.9cf0388d3724eca596c6.jpg",
     "static/media/Sibir.png": "./static/media/Sibir.8a4d1f2844053f59b3cb.png",
+    "static/media/Kinokefaly.jpg": "./static/media/Kinokefaly.e9c37bd997ae4ce59ddd.jpg",
     "static/media/Kentavri.png": "./static/media/Kentavri.1760c8dca79ae8072259.png",
     "static/media/Morskoe-Bratstvo.png": "./static/media/Morskoe-Bratstvo.982d94b86f2a464f351b.png",
     "static/media/Magnum.png": "./static/media/Magnum.5670e856a7aeacdafdc4.png",
@@ -63,6 +66,8 @@
     "static/media/Kuren.png": "./static/media/Kuren.1c5d397c91e115e85178.png",
     "static/media/Yastreb.png": "./static/media/Yastreb.4b59f78ddc33f4e93692.png",
     "static/media/Volnica.png": "./static/media/Volnica.9c319b3477da85e55fb2.png",
+    "static/media/SPUzniky_Culfura.jpg": "./static/media/SPUzniky_Culfura.483cffbe31a900110a87.jpg",
+    "static/media/Uzniky_Culfura.jpg": "./static/media/Uzniky_Culfura.483cffbe31a900110a87.jpg",
     "static/media/Ypiter.png": "./static/media/Ypiter.710d8d4588c6aa05065b.png",
     "static/media/Gladiator.png": "./static/media/Gladiator.a06174fe7cfe2dfa6123.png",
     "static/media/SPBagrovie_Balahony.jpg": "./static/media/SPBagrovie_Balahony.3fb367a751ecc980df9f.jpg",
@@ -190,7 +195,6 @@
     "static/media/SPShampanoidi.jpg": "./static/media/SPShampanoidi.b06b6f974178e985ffde.jpg",
     "static/media/SPBremensky_Muzic.jpg": "./static/media/SPBremensky_Muzic.24c4acff7debb13b329f.jpg",
     "static/media/SPLesnie_Vedmi.jpg": "./static/media/SPLesnie_Vedmi.3b534a7763a84f41812d.jpg",
-    "static/media/SPCrazy_food.jpg": "./static/media/SPCrazy_food.4cf0e623cdad87c9ff1c.jpg",
     "static/media/SPGornie_Klani.jpg": "./static/media/SPGornie_Klani.8dd83cdb3cf34eb28994.jpg",
     "static/media/SPKimy.jpg": "./static/media/SPKimy.11095e66c69332f929f1.jpg",
     "static/media/SPStrazhi_Heridaka.jpg": "./static/media/SPStrazhi_Heridaka.477d6ebd247ba8e88235.jpg",
@@ -210,7 +214,6 @@
     "static/media/SPBrigada.jpg": "./static/media/SPBrigada.90be99f315c69329b55a.jpg",
     "static/media/SPGromovie_Kulaki.jpg": "./static/media/SPGromovie_Kulaki.5fbd30970bad1856e986.jpg",
     "static/media/SPDzyanshi.jpg": "./static/media/SPDzyanshi.f81487c4beff6367f60e.jpg",
-    "static/media/SPUzniky_Culfura.jpg": "./static/media/SPUzniky_Culfura.e5feac30be39d748e509.jpg",
     "static/media/SPProidohi.jpg": "./static/media/SPProidohi.d1f35c5162407f723a20.jpg",
     "static/media/SPRaion_Z.jpg": "./static/media/SPRaion_Z.a768f52d52552703fa31.jpg",
     "static/media/SPOhotnici_za_Golovami.jpg": "./static/media/SPOhotnici_za_Golovami.3bf4203fc1c1e5fbe5c3.jpg",
@@ -222,8 +225,9 @@
     "static/media/SPHalflingy.jpg": "./static/media/SPHalflingy.b1e918b172c1c538fb44.jpg",
     "static/media/SPHitrobany.jpg": "./static/media/SPHitrobany.208d393ca7127ab66f13.jpg",
     "static/media/Bagrovie_Balahony.jpg": "./static/media/Bagrovie_Balahony.8e4e56acab7f0d8a94ea.jpg",
+    "static/media/Karabashsky_Trolli.jpg": "./static/media/Karabashsky_Trolli.a2d838030084e95e52c6.jpg",
+    "static/media/Crazy_food.jpg": "./static/media/Crazy_food.4ad0423ea638774b63d1.jpg",
     "static/media/FMUNL-2.png": "./static/media/FMUNL-2.e7045a8c03bf0d859c2e.png",
-    "static/media/SPKarabashsky_Trolli.jpg": "./static/media/SPKarabashsky_Trolli.ac4b685d685e205add2d.jpg",
     "static/media/SPOrkestrSmerty.jpg": "./static/media/SPOrkestrSmerty.2288f27e03dabe51f5ba.jpg",
     "static/media/FMRaptor.png": "./static/media/FMRaptor.4349c6fb63c021daea85.png",
     "static/media/SPStepnie_Velikany.jpg": "./static/media/SPStepnie_Velikany.cc17e5814c4cbaf6c15f.jpg",
@@ -416,7 +420,6 @@
     "static/media/DemoniSulfura.jpg": "./static/media/DemoniSulfura.49339aa6fb81a47f681f.jpg",
     "static/media/Drakonoborci.jpg": "./static/media/Drakonoborci.54d6a93ac69be9398f15.jpg",
     "static/media/icon_rules_light.png": "./static/media/icon_rules_light.eed2d71497000becc9f6.png",
-    "static/media/Crazy_food.jpg": "./static/media/Crazy_food.a90d822e095fdacd492e.jpg",
     "static/media/Strazhi_Heridaka.jpg": "./static/media/Strazhi_Heridaka.ecaaadbc95e6953c2d93.jpg",
     "static/media/Kechua.jpg": "./static/media/Kechua.e4c0e2a1c4265b30d1dc.jpg",
     "static/media/Edinorog.jpg": "./static/media/Edinorog.278a28edf7ed87a2cee8.jpg",
@@ -459,7 +462,6 @@
     "static/media/Pescherni_Trolli.jpg": "./static/media/Pescherni_Trolli.b0f5b84dadcae23b2670.jpg",
     "static/media/Dolg.jpg": "./static/media/Dolg.b2f6d144496e2ba95664.jpg",
     "static/media/Sarancha.png": "./static/media/Sarancha.457b42fc5c24bf7a2c47.png",
-    "static/media/Uzniky_Culfura.jpg": "./static/media/Uzniky_Culfura.c2180f92676367a0d4fc.jpg",
     "static/media/Stilet.png": "./static/media/Stilet.722ad17e0c3f0d23256b.png",
     "static/media/Krab.png": "./static/media/Krab.41cc4b5585d397246594.png",
     "static/media/Apus.jpg": "./static/media/Apus.64f14bb941b912245ee0.jpg",
@@ -478,7 +480,6 @@
     "static/media/Kamennie_Trolly.jpg": "./static/media/Kamennie_Trolly.a6876c2dd6a15f92b103.jpg",
     "static/media/Zhelezni_Drakon.jpg": "./static/media/Zhelezni_Drakon.bd02f30293f2130fab15.jpg",
     "static/media/Telec.png": "./static/media/Telec.5045fca15b2bc6c8e936.png",
-    "static/media/Karabashsky_Trolli.jpg": "./static/media/Karabashsky_Trolli.f7cc21cfeb6b2a519990.jpg",
     "static/media/Meotida.jpg": "./static/media/Meotida.1d8eeb685f00726dbd5f.jpg",
     "static/media/Shpicbergen.jpg": "./static/media/Shpicbergen.6e8d3a906d4dde1d6941.jpg",
     "static/media/Gromovie_Kulaki.jpg": "./static/media/Gromovie_Kulaki.2ae8909bf2b7e9a6b523.jpg",
@@ -548,10 +549,10 @@
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
     "main.16288359.css.map": "./static/css/main.16288359.css.map",
-    "main.c56a4277.js.map": "./static/js/main.c56a4277.js.map"
+    "main.351aa5bd.js.map": "./static/js/main.351aa5bd.js.map"
   },
   "entrypoints": [
     "static/css/main.16288359.css",
-    "static/js/main.c56a4277.js"
+    "static/js/main.351aa5bd.js"
   ]
 }
