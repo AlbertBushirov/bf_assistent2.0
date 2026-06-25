@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.16288359.css",
-    "main.js": "./static/js/main.351aa5bd.js",
+    "main.js": "./static/js/main.a486e7e0.js",
     "static/media/turnamentEKB2026.jpg": "./static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
     "static/media/VKzigfrid6.png": "./static/media/VKzigfrid6.eeabdcc17fdcc265afc1.png",
@@ -139,6 +139,7 @@
     "static/media/SPTvoreniyaMarkusa.jpg": "./static/media/SPTvoreniyaMarkusa.ec3150edb1c7c207de99.jpg",
     "static/media/LNCunami.jpg": "./static/media/LNCunami.86f9619132c961350b18.jpg",
     "static/media/SPAmazonky_Areny.jpg": "./static/media/SPAmazonky_Areny.d3e50d32f8ac8eaeccb5.jpg",
+    "static/media/SPSchetovody.jpg": "./static/media/SPSchetovody.c8570b2957bd0b42431a.jpg",
     "static/media/SPBratyaIgarashi.jpg": "./static/media/SPBratyaIgarashi.c9d362b506d69efb4e0d.jpg",
     "static/media/LNPiton.jpg": "./static/media/LNPiton.7ce258c86560e4a434cc.jpg",
     "static/media/LNKentavr.jpg": "./static/media/LNKentavr.effd8666d6e2c3086c63.jpg",
@@ -549,10 +550,10 @@
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
     "main.16288359.css.map": "./static/css/main.16288359.css.map",
-    "main.351aa5bd.js.map": "./static/js/main.351aa5bd.js.map"
+    "main.a486e7e0.js.map": "./static/js/main.a486e7e0.js.map"
   },
   "entrypoints": [
     "static/css/main.16288359.css",
-    "static/js/main.351aa5bd.js"
+    "static/js/main.a486e7e0.js"
   ]
 }
