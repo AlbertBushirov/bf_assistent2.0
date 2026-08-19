@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.72ff624a.css",
-    "main.js": "./static/js/main.7839bfba.js",
+    "main.js": "./static/js/main.03083ac8.js",
     "static/media/turnamentEKB2026.jpg": "./static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
     "static/media/Danila_Kuznecov.png": "./static/media/Danila_Kuznecov.cc5e3b2a02819a5d9847.png",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
@@ -33,6 +33,7 @@
     "static/media/LNTornadogolovotyap.png": "./static/media/LNTornadogolovotyap.af20ca6b90a94d8fbeac.png",
     "static/media/Vadim_Basuk.jpg": "./static/media/Vadim_Basuk.133f2b3dbea1b117adb1.jpg",
     "static/media/SPRatmeni.jpg": "./static/media/SPRatmeni.357b130ea4c4c63bf851.jpg",
+    "static/media/ratingEKB2026.png": "./static/media/ratingEKB2026.d37e65bbbf60f9475683.png",
     "static/media/ObeMasterVolshebnik.png": "./static/media/ObeMasterVolshebnik.e0967bb8b58ce66574b7.png",
     "static/media/ObeDarkShaman.png": "./static/media/ObeDarkShaman.e995ab651140c3b42fa9.png",
     "static/media/SPElfiski_Vedmy.jpg": "./static/media/SPElfiski_Vedmy.bf28f3be6d05798b4503.jpg",
@@ -555,10 +556,10 @@
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
     "main.72ff624a.css.map": "./static/css/main.72ff624a.css.map",
-    "main.7839bfba.js.map": "./static/js/main.7839bfba.js.map"
+    "main.03083ac8.js.map": "./static/js/main.03083ac8.js.map"
   },
   "entrypoints": [
     "static/css/main.72ff624a.css",
-    "static/js/main.7839bfba.js"
+    "static/js/main.03083ac8.js"
   ]
 }
