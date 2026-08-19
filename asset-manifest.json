@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "./static/css/main.16288359.css",
-    "main.js": "./static/js/main.ee34ba71.js",
+    "main.css": "./static/css/main.72ff624a.css",
+    "main.js": "./static/js/main.4e771418.js",
     "static/media/turnamentEKB2026.jpg": "./static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
+    "static/media/Danila_Kuznecov.png": "./static/media/Danila_Kuznecov.cc5e3b2a02819a5d9847.png",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
     "static/media/VKzigfrid6.png": "./static/media/VKzigfrid6.eeabdcc17fdcc265afc1.png",
     "static/media/GVSpsi-komandazero.png": "./static/media/GVSpsi-komandazero.26e24b5eced489f53b02.png",
@@ -256,6 +257,7 @@
     "static/media/Fon_Preview.jpg": "./static/media/Fon_Preview.9a5542daecb6879d1ecd.jpg",
     "static/media/Gromoboi.jpg": "./static/media/Gromoboi.080d623b4bb258a8d2a6.jpg",
     "static/media/SPBladhorn.jpg": "./static/media/SPBladhorn.1ba2a912ee19d79cff47.jpg",
+    "static/media/coin.png": "./static/media/coin.6dc2f800d1b03d4aeb13.png",
     "static/media/SPKlanLokAmon5.jpg": "./static/media/SPKlanLokAmon5.7258eb7efc2211afa73f.jpg",
     "static/media/Dzyanshi.jpg": "./static/media/Dzyanshi.e406fd732c85e072d844.jpg",
     "static/media/Dagaz.jpg": "./static/media/Dagaz.bde550ca4ce947f79481.jpg",
@@ -490,11 +492,14 @@
     "static/media/Edinorog.png": "./static/media/Edinorog.291c947fa90d617eb5de.png",
     "static/media/Fangeti.jpg": "./static/media/Fangeti.2ee5cf0f1efd539f76c1.jpg",
     "static/media/Buldog.png": "./static/media/Buldog.7a7bfe66b9ee62104b9e.png",
+    "static/media/goldEKB26.png": "./static/media/goldEKB26.769320913d735b6a1508.png",
     "static/media/rules.jpg": "./static/media/rules.b70d149140fefbdb41db.jpg",
+    "static/media/bronseEKB26.png": "./static/media/bronseEKB26.04bdefa8f910b688677d.png",
     "static/media/Gornie_Klani.jpg": "./static/media/Gornie_Klani.26da4740957fc67e9c42.jpg",
     "static/media/Roga_i_Kopita.jpg": "./static/media/Roga_i_Kopita.4f62cfc7c4e0e156e3b4.jpg",
     "static/media/Otdel_Z.jpg": "./static/media/Otdel_Z.054ac0191bbdf0d3609a.jpg",
     "static/media/icon_Pamyatka_light.png": "./static/media/icon_Pamyatka_light.c60c2c2dccdf35c990ef.png",
+    "static/media/silverEKB26.png": "./static/media/silverEKB26.61a460f7fb669adf1f78.png",
     "static/media/icon_rating_light.png": "./static/media/icon_rating_light.707145d247904c63e219.png",
     "static/media/Klop.png": "./static/media/Klop.24cfaa7997ac5766803c.png",
     "static/media/Manrope.ttf": "./static/media/Manrope.e08eda3003b96222039b.ttf",
@@ -549,11 +554,11 @@
     "static/media/rebalance-logo.png": "./static/media/rebalance-logo.5be8004dc5e1858c7b91.png",
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
-    "main.16288359.css.map": "./static/css/main.16288359.css.map",
-    "main.ee34ba71.js.map": "./static/js/main.ee34ba71.js.map"
+    "main.72ff624a.css.map": "./static/css/main.72ff624a.css.map",
+    "main.4e771418.js.map": "./static/js/main.4e771418.js.map"
   },
   "entrypoints": [
-    "static/css/main.16288359.css",
-    "static/js/main.ee34ba71.js"
+    "static/css/main.72ff624a.css",
+    "static/js/main.4e771418.js"
   ]
 }
