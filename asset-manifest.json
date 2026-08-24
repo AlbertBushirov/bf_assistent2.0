@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.72ff624a.css",
-    "main.js": "./static/js/main.03083ac8.js",
+    "main.css": "./static/css/main.6c6f5a45.css",
+    "main.js": "./static/js/main.2afc1f24.js",
     "static/media/turnamentEKB2026.jpg": "./static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
     "static/media/Danila_Kuznecov.png": "./static/media/Danila_Kuznecov.cc5e3b2a02819a5d9847.png",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
@@ -178,6 +178,7 @@
     "static/media/SPKiberzveri.jpg": "./static/media/SPKiberzveri.218f62a29629f6524d69.jpg",
     "static/media/GVSShidy.jpg": "./static/media/GVSShidy.e5860da9c0a365726773.jpg",
     "static/media/SPObitateliBelihRavnin.jpg": "./static/media/SPObitateliBelihRavnin.de0b6194be94a291e46c.jpg",
+    "static/media/SPTsikady.jpg": "./static/media/SPTsikady.571d9b1629c2c6ae5275.jpg",
     "static/media/SPVedmaki.jpg": "./static/media/SPVedmaki.ebb32cd6d3a811461765.jpg",
     "static/media/SPmrachnaya_Krasotka.jpg": "./static/media/SPmrachnaya_Krasotka.08b8ce9ee8b1cbfd2918.jpg",
     "static/media/Elfiski_Vedmy.jpg": "./static/media/Elfiski_Vedmy.1109856819abb2286a21.jpg",
@@ -501,6 +502,7 @@
     "static/media/Otdel_Z.jpg": "./static/media/Otdel_Z.054ac0191bbdf0d3609a.jpg",
     "static/media/icon_Pamyatka_light.png": "./static/media/icon_Pamyatka_light.c60c2c2dccdf35c990ef.png",
     "static/media/silverEKB26.png": "./static/media/silverEKB26.61a460f7fb669adf1f78.png",
+    "static/media/Ival_Polyak.jpg": "./static/media/Ival_Polyak.66ed8175e464add868bf.jpg",
     "static/media/icon_rating_light.png": "./static/media/icon_rating_light.707145d247904c63e219.png",
     "static/media/Klop.png": "./static/media/Klop.24cfaa7997ac5766803c.png",
     "static/media/Manrope.ttf": "./static/media/Manrope.e08eda3003b96222039b.ttf",
@@ -555,11 +557,11 @@
     "static/media/rebalance-logo.png": "./static/media/rebalance-logo.5be8004dc5e1858c7b91.png",
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
-    "main.72ff624a.css.map": "./static/css/main.72ff624a.css.map",
-    "main.03083ac8.js.map": "./static/js/main.03083ac8.js.map"
+    "main.6c6f5a45.css.map": "./static/css/main.6c6f5a45.css.map",
+    "main.2afc1f24.js.map": "./static/js/main.2afc1f24.js.map"
   },
   "entrypoints": [
-    "static/css/main.72ff624a.css",
-    "static/js/main.03083ac8.js"
+    "static/css/main.6c6f5a45.css",
+    "static/js/main.2afc1f24.js"
   ]
 }
