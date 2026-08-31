@@ -84,8 +84,18 @@
 
   &__achievements {
     display: grid;
+    overflow-y: auto;
+    height: 109.5px;
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: rgba(128, 128, 128, 0.411);
+      border-radius: 4px;
+    }
     grid-template-columns: repeat(4, auto);
     gap: 3px;
+    align-items: center;
   }
 }
 
@@ -131,9 +141,8 @@
     }
     &__achievements {
       grid-template-columns: repeat(3, auto);
-      overflow-x: auto;
+
       height: 72px;
-      max-width: 81px;
       align-items: center;
     }
     &__index {

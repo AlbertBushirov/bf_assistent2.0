@@ -156,8 +156,7 @@ export const localNeutralsquad = [
     id: "SPKallisto",
     title: "Каллисто",
     category: "Нейтральный отряд (КБФ)",
-    description:
-      "https://sun9-12.userapi.com/impg/bvR7cJyi5lLMPiwmNuAH-Ap47j87SOJ9st3y2Q/e48La_SU8U8.jpg?size=1090x726&quality=95&sign=a4cf18e61919cd11f379c0416d373c49&type=album",
+    description: require("../images/Artefakti/SPKallisto.jpg"),
     image: require("../images/Storonie/SPKallisto.jpg"),
     price: 260,
     inBasket: true,
@@ -175,6 +174,18 @@ export const localNeutralsquad = [
     directory:
       "Вероятность успешного использования Артефакта при 0 сброшенных карт: 33,33%; при 1 сброшенной карте: 55.6%; при 2 сброшенных картах: 70.37%",
     button: "",
+  },
+  {
+    id: "SPSchetovody",
+    title: "Счетоводы",
+    category: "Нейтральный отряд (КБФ)",
+    description: require("../images/Artefakti/SPSchetovody.jpg"),
+    image: require("../images/Storonie/SPSchetovody.jpg"),
+    price: 190,
+    inBasket: true,
+    directory: "Вероятность успешного использования Артефакта: 33,33%;",
+    marker: require("../images/marker_new.png"),
+    markerTitle: "Новая адаптированная Боевая единица",
   },
   {
     id: "SPLizardi",
@@ -355,7 +366,6 @@ export const localNeutralsquad = [
     price: 170,
     inBasket: false,
     button: "",
-    ekb26: true,
   },
   {
     id: "SPApus",
@@ -411,7 +421,6 @@ export const localNeutralsquad = [
     price: 205,
     inBasket: false,
     button: "",
-    ekb26: true,
   },
   {
     id: "SPKimy",
@@ -455,7 +464,6 @@ export const localNeutralsquad = [
     price: 140,
     inBasket: false,
     button: "",
-    ekb26: true,
   },
   {
     id: "SPVisoky_Kolpaky",
@@ -477,5 +485,30 @@ export const localNeutralsquad = [
     price: 165,
     inBasket: false,
     button: "",
+  },
+  {
+    id: "SPKinokefaly",
+    title: "Кинокефалы",
+    category: "Нейтральный отряд (АОБФ)",
+    description: require("../images/Artefakti/Kinokefaly.jpg"),
+    image: require("../images/Storonie/Kinokefaly.jpg"),
+    price: 215,
+    inBasket: false,
+    button: "",
+    marker: require("../images/marker_new.png"),
+    markerTitle: "Новая адаптированная Боевая единица",
+  },
+  {
+    id: "SPSinegabry",
+    title: "Синежабры",
+    category: "Нейтральный отряд (КБФ)",
+    description: require("../images/Artefakti/SPSinegabry.jpg"),
+    image: require("../images/Storonie/SPSinegabry.jpg"),
+    price: 205,
+    inBasket: false,
+    button: "",
+    directory: "Вероятность успешного использования Артефакта: 33.33%",
+    marker: require("../images/marker_new.png"),
+    markerTitle: "Новая адаптированная Боевая единица",
   },
 ];

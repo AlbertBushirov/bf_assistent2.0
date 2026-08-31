@@ -1,5 +1,18 @@
 export const localWall = [
   {
+    id: "ratingEKB26",
+    image: require("../images/wall/ratingEKB2026.png"),
+    description: `Вот и закончился грандиозный турнир в Екатеринбурге!
+    
+    Рейтинг игроков обновлён с учетом прошедшего турнира. Все игроки получили свои награды за участие, а победители уникальные кубки!
+    
+    Играйте выигрывайте и помните: ваши успехи всегда будут отмечены на bf-assistent.ru.
+    
+    До скорых встреч!`,
+    button: "группа VK",
+    link: "https://vk.ru/bfassistent?w=wall-227215740_132",
+  },
+  {
     id: "turnamentEKB2026",
     image: require("../images/wall/turnamentEKB2026.jpg"),
     description: `Екатеринбург готовится к великим сражениям!

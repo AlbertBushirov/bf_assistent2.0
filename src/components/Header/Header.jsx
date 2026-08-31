@@ -57,9 +57,9 @@ export function Header({ roster, limit }) {
           <span className="header__container__price">
             сумма ростера:{" "}
             {limit
-              ? `${getTotalPrice(roster)}/ ${limit}`
-              : `${getTotalPrice(roster)} `}{" "}
-            очков
+              ? `${getTotalPrice(roster)}/${limit}`
+              : `${getTotalPrice(roster)} `}
+            {""} очков
           </span>
         </div>
       </div>

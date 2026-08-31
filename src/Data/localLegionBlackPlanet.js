@@ -261,4 +261,18 @@ export const localLegionBlackPlanet = [
     marker: require("../images/marker_new.png"),
     markerTitle: "Новая адаптированная Боевая единица",
   },
+  {
+    id: "SPTsikady",
+    title: "Цикады",
+    fullTitle: "Спецотряд Цикады",
+    category: "Легионы черной планеты (КБФ)",
+    description: require("../images/Artefakti/SPTsikady.jpg"),
+    image: require("../images/Storonie/SPTsikady.jpg"),
+    price: 285,
+    inBasket: false,
+    directory: "Вероятность успешного использования Артефакта: 42.13%",
+    button: "",
+    marker: require("../images/marker_new.png"),
+    markerTitle: "Новая адаптированная Боевая единица",
+  },
 ];

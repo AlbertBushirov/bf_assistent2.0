@@ -58,15 +58,17 @@ export function Filter({
 
       <aside className={`filter ${isOpen ? "filter--open" : ""}`}>
         <input
+          className="search"
           id="search"
           name="search"
           type="search"
-          placeholder="Поиск..."
+          placeholder="Название или цена..."
           value={search}
           onChange={(e) => {
             setSearch(e.target.value);
           }}
         />
+
         <div className="filter__buttons">
           <span>Фильтры</span>
           <div className="filter__group">

@@ -1,11 +1,5 @@
 import { useState, useMemo, useEffect } from "react";
-import {
-  Link,
-  Outlet,
-  useLocation,
-  useParams,
-  useSearchParams,
-} from "react-router-dom";
+import { Link, Outlet, useParams, useSearchParams } from "react-router-dom";
 import { squads } from "../../Data/localKoldun";
 import { SinglePage } from "../singlePage/Singlpage";
 import { motion, AnimatePresence } from "framer-motion";

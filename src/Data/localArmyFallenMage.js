@@ -64,7 +64,7 @@ export const localArmyFallenMage = [
     title: "Клан Шиноби",
     category: "Войско павшего мага (КБФ)",
     description: require("../images/Artefakti/Shinobi.jpg"),
-    image: require("../images/Storonie/SPShinobi.jpg"), // Прямой URL для удаленного изображения
+    image: require("../images/Storonie/SPShinobi.jpg"),
     price: 185,
     inBasket: true,
     directory:

@@ -14,6 +14,11 @@ const judgeThreeSPB = {
   title: "Судья турнира в Санкт-Петербурге. 2025",
 };
 
+const judgeEKB26 = {
+  image: require("../images/rating/judge.png"),
+  title: "Судья турнира в Екатеринбурге. 2026",
+};
+
 //-------------------------------------------------------------------------------
 
 //За оргазизацию
@@ -205,6 +210,26 @@ const OneEkb3 = {
   title: "Бронза турнира в Екатеринбурге. 2025",
 };
 
+const Ekb2026 = {
+  image: require("../images/rating/coin.png"),
+  title: "За участие в турнире. Урал 2026 год.",
+};
+
+const Ekb26Gold = {
+  image: require("../images/rating/goldEKB26.png"),
+  title: "Чемпион турнира на Урале. 2026 год.",
+};
+
+const Ekb26Silver = {
+  image: require("../images/rating/silverEKB26.png"),
+  title: "Второе место чемпионата на Урале. 2026 год.",
+};
+
+const Ekb26Bronse = {
+  image: require("../images/rating/bronseEKB26.png"),
+  title: "Третье место чемпионата на Урале. 2026 год.",
+};
+
 //Омск
 const OneOmsk1 = {
   image: require("../images/rating/cups-1.png"),
@@ -261,9 +286,9 @@ export const localPlayers = [
     id: "Albert_Bashirov",
     image: require("../images/photo_players/Albert_Bashirov.png"),
     player: "Альберт Баширов",
-    achievements: [FourSPB1, ThreeMoscow1, ThreeSPB3, OneEkb3],
-    games: 32, //Побед: 8
-    win: 25,
+    achievements: [FourSPB1, ThreeMoscow1, ThreeSPB3, OneEkb3, Ekb2026],
+    games: 38, //Побед: 8
+    win: 28,
   },
   {
     id: "Artur_Kovalev",
@@ -277,9 +302,11 @@ export const localPlayers = [
       TwoSPB2,
       OneOmsk2,
       TwoMoscow3,
+      Ekb26Bronse,
+      Ekb2026,
     ],
-    games: 51, //Побед: 22
-    win: 42,
+    games: 57, //Побед: 22
+    win: 47,
   },
   {
     id: "Sergey_Latishev",
@@ -290,19 +317,21 @@ export const localPlayers = [
       TwoMoscow1,
       OneOmsk1,
       OneEkb2,
+      Ekb26Silver,
       TwoSPB3,
       organizerTwoChe,
+      Ekb2026,
     ],
-    games: 33, //Побед: 14
-    win: 28,
+    games: 39, //Побед: 14
+    win: 33,
   },
   {
     id: "Ivan_Vasilev",
     image: require("../images/photo_players/Ivan_Vasilev.jpg"),
     player: "Иван Васильев",
-    achievements: [ThreeSPB2],
-    games: 37,
-    win: 19, //Побед: 17
+    achievements: [ThreeSPB2, Ekb2026],
+    games: 43,
+    win: 22, //Побед: 17
   },
   {
     id: "Stepan_Harlakshin",
@@ -324,9 +353,9 @@ export const localPlayers = [
     id: "Kozchemyaka_Sergeevic",
     image: require("../images/avatar_gamers.png"),
     player: "Кожемяка Сергеевич",
-    achievements: [],
-    games: 4,
-    win: 3,
+    achievements: [Ekb2026],
+    games: 10,
+    win: 6,
   },
   {
     id: "Svetlana_Djipsy",
@@ -489,7 +518,7 @@ export const localPlayers = [
     id: "Andrey_Andreev",
     image: require("../images/photo_players/Andrey_Andreev.jpg"),
     player: "Андрей Андреев",
-    achievements: [organizerOneEKB],
+    achievements: [organizerOneEKB, judgeEKB26],
     games: 14, //Побед: 3
     winrating: 43,
     win: 6,
@@ -523,12 +552,12 @@ export const localPlayers = [
   },
   {
     id: "Danila_Kuznecov",
-    image: require("../images/avatar_gamers.png"),
+    image: require("../images/photo_players/Danila_Kuznecov.png"),
     player: "Данила Кузнецов",
-    achievements: [],
-    games: 17, //Побед: 5
+    achievements: [Ekb26Gold, Ekb2026],
+    games: 23,
     winrating: 45,
-    win: 8,
+    win: 13,
   },
   {
     id: "Dmitriy_Sokil",
@@ -551,18 +580,18 @@ export const localPlayers = [
     id: "Evgeniy_Sorokin",
     image: require("../images/avatar_gamers.png"),
     player: "Евгений Сорокин",
-    achievements: [],
-    games: 32,
-    win: 15,
+    achievements: [Ekb2026],
+    games: 37,
+    win: 16,
   },
   {
     id: "Eduard_Agievich",
     image: require("../images/avatar_gamers.png"),
     player: "Эдуард Агиевич",
-    achievements: [],
-    games: 14, //Побед: 3
+    achievements: [Ekb2026],
+    games: 20, //Побед: 3
     winrating: 36,
-    win: 3,
+    win: 6,
   },
   {
     id: "Pavel_Gavrilov",
@@ -692,10 +721,10 @@ export const localPlayers = [
     id: "Ruslan_Aljanov",
     image: require("../images/avatar_gamers.png"),
     player: "Руслан Альжанов",
-    achievements: [organizerOneOmsk],
-    games: 3, //Побед: 0
+    achievements: [organizerOneOmsk, Ekb2026],
+    games: 9, //Побед: 0
     winrating: 0,
-    win: 0,
+    win: 2,
   },
   {
     id: "Georgiy_Matveev",
@@ -737,10 +766,10 @@ export const localPlayers = [
     id: "Alexander_Toporkov",
     image: require("../images/avatar_gamers.png"),
     player: "Александр Топорков",
-    achievements: [],
-    games: 12,
+    achievements: [Ekb2026],
+    games: 18,
     winrating: 33,
-    win: 5,
+    win: 7,
   },
 
   {
@@ -763,7 +792,7 @@ export const localPlayers = [
   },
   {
     id: "Ivan_Polyak",
-    image: require("../images/avatar_gamers.png"),
+    image: require("../images/photo_players/Ival_Polyak.jpg"),
     player: "Иван Поляк",
     achievements: [],
     games: 6,
@@ -783,10 +812,10 @@ export const localPlayers = [
     id: "Pavel_Kotenev",
     image: require("../images/avatar_gamers.png"),
     player: "Павел Котенёв",
-    achievements: [],
-    games: 12,
+    achievements: [Ekb2026],
+    games: 18,
     winrating: 50,
-    win: 7,
+    win: 11,
   },
   {
     id: "Egor_Kolobov",
@@ -837,18 +866,25 @@ export const localPlayers = [
     id: "Valeriy_Zhilin",
     image: require("../images/avatar_gamers.png"),
     player: "Валерий Жилин",
-    achievements: [],
-    games: 6,
-    winrating: 50,
+    achievements: [Ekb2026],
+    games: 10,
     win: 1,
   },
   {
     id: "Maksim_Kuznezov",
     image: require("../images/avatar_gamers.png"),
     player: "Максим Кузнецов",
-    achievements: [],
-    games: 6,
+    achievements: [Ekb2026],
+    games: 12,
     winrating: 50,
-    win: 1,
+    win: 4,
+  },
+  {
+    id: "Pavel_Varaksin",
+    image: require("../images/avatar_gamers.png"),
+    player: "Павел Вараксин",
+    achievements: [Ekb2026],
+    games: 3,
+    win: 0,
   },
 ];
