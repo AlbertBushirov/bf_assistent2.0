@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.2651a0ae.css",
+    "main.css": "./static/css/main.a575ed4f.css",
     "main.js": "./static/js/main.b792d424.js",
     "static/media/turnamentEKB2026.jpg": "./static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
     "static/media/Danila_Kuznecov.png": "./static/media/Danila_Kuznecov.cc5e3b2a02819a5d9847.png",
@@ -536,11 +536,11 @@
     "static/media/rebalance-logo.png": "./static/media/rebalance-logo.5be8004dc5e1858c7b91.png",
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
-    "main.2651a0ae.css.map": "./static/css/main.2651a0ae.css.map",
+    "main.a575ed4f.css.map": "./static/css/main.a575ed4f.css.map",
     "main.b792d424.js.map": "./static/js/main.b792d424.js.map"
   },
   "entrypoints": [
-    "static/css/main.2651a0ae.css",
+    "static/css/main.a575ed4f.css",
     "static/js/main.b792d424.js"
   ]
 }
