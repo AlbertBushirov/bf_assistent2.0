@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a575ed4f.css",
-    "main.js": "./static/js/main.b792d424.js",
+    "main.js": "./static/js/main.4a6772b6.js",
     "static/media/turnamentEKB2026.jpg": "./static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
     "static/media/Danila_Kuznecov.png": "./static/media/Danila_Kuznecov.cc5e3b2a02819a5d9847.png",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
@@ -54,6 +54,7 @@
     "static/media/SPYarly.png": "./static/media/SPYarly.9438abb965bc683f87a1.png",
     "static/media/Bezlikie.png": "./static/media/Bezlikie.f374a699afcdc78c80e1.png",
     "static/media/ratingEKB2026.png": "./static/media/ratingEKB2026.d37e65bbbf60f9475683.png",
+    "static/media/SPStrelka.png": "./static/media/SPStrelka.061c514f06e0b70a21c5.png",
     "static/media/ObeMasterVolshebnik.png": "./static/media/ObeMasterVolshebnik.e0967bb8b58ce66574b7.png",
     "static/media/SPGornie_Klani.png": "./static/media/SPGornie_Klani.e563f18885f7aac7ba06.png",
     "static/media/SPMonstryVideo2.png": "./static/media/SPMonstryVideo2.925ebb91ce6102ce5912.png",
@@ -537,10 +538,10 @@
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
     "main.a575ed4f.css.map": "./static/css/main.a575ed4f.css.map",
-    "main.b792d424.js.map": "./static/js/main.b792d424.js.map"
+    "main.4a6772b6.js.map": "./static/js/main.4a6772b6.js.map"
   },
   "entrypoints": [
     "static/css/main.a575ed4f.css",
-    "static/js/main.b792d424.js"
+    "static/js/main.4a6772b6.js"
   ]
 }
