@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a575ed4f.css",
-    "main.js": "./static/js/main.4a6772b6.js",
+    "main.js": "./static/js/main.cbe8ac84.js",
     "static/media/turnamentEKB2026.jpg": "./static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
     "static/media/Danila_Kuznecov.png": "./static/media/Danila_Kuznecov.cc5e3b2a02819a5d9847.png",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
@@ -49,6 +49,7 @@
     "static/media/SPOgnevaya_Brigada.png": "./static/media/SPOgnevaya_Brigada.a1da0c4643d01311b3ab.png",
     "static/media/SPKamennie_Trolly.png": "./static/media/SPKamennie_Trolly.c7cdc48f40a53ddf0153.png",
     "static/media/SPMonstryDVD.png": "./static/media/SPMonstryDVD.79edce6fdd08938dc2d6.png",
+    "static/media/Voiny_Bastet.png": "./static/media/Voiny_Bastet.ffa13cd872c7db9396b1.png",
     "static/media/SPMeotida.png": "./static/media/SPMeotida.13028fa3635fe3e1740b.png",
     "static/media/SPVikingy.png": "./static/media/SPVikingy.fc2a1d25593e07d7b209.png",
     "static/media/SPYarly.png": "./static/media/SPYarly.9438abb965bc683f87a1.png",
@@ -538,10 +539,10 @@
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
     "main.a575ed4f.css.map": "./static/css/main.a575ed4f.css.map",
-    "main.4a6772b6.js.map": "./static/js/main.4a6772b6.js.map"
+    "main.cbe8ac84.js.map": "./static/js/main.cbe8ac84.js.map"
   },
   "entrypoints": [
     "static/css/main.a575ed4f.css",
-    "static/js/main.4a6772b6.js"
+    "static/js/main.cbe8ac84.js"
   ]
 }
