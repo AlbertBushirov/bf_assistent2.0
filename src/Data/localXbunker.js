@@ -3,7 +3,7 @@ export const localXBunker = [
     id: "SPGally",
     title: "Галлы",
     category: "Х-Бункер (КБФ)",
-    description: require("../images/Artefakti/Gally.jpg"),
+    description: require("../images/Artefakti/SPGally.jpg"),
     image: require("../images/Storonie/SPGally.jpg"), // Прямой URL для удаленного изображения
     price: 170,
     inBasket: true,

@@ -182,7 +182,7 @@ export const localLegionBlackPlanet = [
     id: "SPObitateliBelihRavnin",
     title: "Об-ли Белых Равнин",
     category: "Легионы черной планеты (КБФ)",
-    description: require("../images/Artefakti/ObitateliBelihRavnin.jpg"),
+    description: require("../images/Artefakti/SPObitateliBelihRavnin.jpg"),
     image: require("../images/Storonie/SPObitateliBelihRavnin.jpg"),
     price: 195,
     inBasket: false,
