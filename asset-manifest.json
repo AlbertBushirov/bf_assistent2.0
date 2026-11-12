@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a575ed4f.css",
-    "main.js": "./static/js/main.cbe8ac84.js",
+    "main.js": "./static/js/main.63cdc0ee.js",
     "static/media/turnamentEKB2026.jpg": "./static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
     "static/media/Danila_Kuznecov.png": "./static/media/Danila_Kuznecov.cc5e3b2a02819a5d9847.png",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
@@ -539,10 +539,10 @@
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
     "main.a575ed4f.css.map": "./static/css/main.a575ed4f.css.map",
-    "main.cbe8ac84.js.map": "./static/js/main.cbe8ac84.js.map"
+    "main.63cdc0ee.js.map": "./static/js/main.63cdc0ee.js.map"
   },
   "entrypoints": [
     "static/css/main.a575ed4f.css",
-    "static/js/main.cbe8ac84.js"
+    "static/js/main.63cdc0ee.js"
   ]
 }
