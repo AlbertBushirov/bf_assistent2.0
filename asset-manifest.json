@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.a575ed4f.css",
-    "main.js": "./static/js/main.63cdc0ee.js",
+    "main.css": "./static/css/main.b81064e8.css",
+    "main.js": "./static/js/main.fdca8815.js",
     "static/media/turnamentEKB2026.jpg": "./static/media/turnamentEKB2026.ebdafc603b99682654c6.jpg",
     "static/media/Danila_Kuznecov.png": "./static/media/Danila_Kuznecov.cc5e3b2a02819a5d9847.png",
     "static/media/GVSkentavry.png": "./static/media/GVSkentavry.a1b127c45e6c05f66911.png",
@@ -500,6 +500,7 @@
     "static/media/avatar_gamers.png": "./static/media/avatar_gamers.c13ea9b4308b24e6fda8.png",
     "static/media/like.png": "./static/media/like.5dbdc5b8a00e7e7878eb.png",
     "static/media/heavyMachineGun.png": "./static/media/heavyMachineGun.0bad311eb43320acdfeb.png",
+    "static/media/hand-to-hand.png": "./static/media/hand-to-hand.0cd67cfe9ed186792630.png",
     "static/media/heavyMachineGun2.png": "./static/media/heavyMachineGun2.fffe94a4ad76107b1f70.png",
     "static/media/rocketLauncher.png": "./static/media/rocketLauncher.111f11aa4cc756eb6d60.png",
     "static/media/Fon_AS.png": "./static/media/Fon_AS.774d87bcabad05d4a379.png",
@@ -512,7 +513,6 @@
     "static/media/launcher2.png": "./static/media/launcher2.7e2e726fbe2ed8fcb204.png",
     "static/media/Fon_Coldun.png": "./static/media/Fon_Coldun.fa7a678e9efbf4edc50e.png",
     "static/media/like_active.png": "./static/media/like_active.e47e8112cbc75a46f181.png",
-    "static/media/hand-to-hand.png": "./static/media/hand-to-hand.4c541d3ac95076056564.png",
     "static/media/judge.png": "./static/media/judge.ae83e38259064faf1c62.png",
     "static/media/shooting-2.png": "./static/media/shooting-2.197e1f2671dc111303c4.png",
     "static/media/logo.png": "./static/media/logo.9b8b5132cfcfd7f3e786.png",
@@ -530,7 +530,6 @@
     "static/media/Fon_Charodey.png": "./static/media/Fon_Charodey.42462cdd63651f5873cf.png",
     "static/media/copyright-logo.png": "./static/media/copyright-logo.0aa2d7cc7223dc9fd53c.png",
     "static/media/tower-logo.png": "./static/media/tower-logo.430670331b09dddf506a.png",
-    "static/media/ekb26-logo.png": "./static/media/ekb26-logo.d896248c470ded89cf42.png",
     "static/media/like-logo.png": "./static/media/like-logo.ef0de3e76c1d1d307071.png",
     "static/media/marker_new.png": "./static/media/marker_new.887f5f11ec9ee2584da3.png",
     "static/media/new-logo.png": "./static/media/new-logo.887f5f11ec9ee2584da3.png",
@@ -538,11 +537,11 @@
     "static/media/rebalance-logo.png": "./static/media/rebalance-logo.5be8004dc5e1858c7b91.png",
     "index.html": "./index.html",
     "static/media/trash.svg": "./static/media/trash.149fd57d309365445ca0.svg",
-    "main.a575ed4f.css.map": "./static/css/main.a575ed4f.css.map",
-    "main.63cdc0ee.js.map": "./static/js/main.63cdc0ee.js.map"
+    "main.b81064e8.css.map": "./static/css/main.b81064e8.css.map",
+    "main.fdca8815.js.map": "./static/js/main.fdca8815.js.map"
   },
   "entrypoints": [
-    "static/css/main.a575ed4f.css",
-    "static/js/main.63cdc0ee.js"
+    "static/css/main.b81064e8.css",
+    "static/js/main.fdca8815.js"
   ]
 }
